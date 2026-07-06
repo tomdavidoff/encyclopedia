@@ -26,28 +26,39 @@ certain allocative effects of homeownership will become popular.
 
 \section{Housing Wealth Over the Life Cycle: US Statistics}
 
-Census 2000: among Census respondents aged 75 and over, in 2000,10,278,851 were household heads or spouses of heads who owned their own residence out of 14,731,404, or 69.8\%. In the 2024 ACS, it was 17,441,550.0 /23,917,742.0, or 72.9\%. Among Americans 24-35, it was a different story. In 2000, 17,860,066 in that group out of 38,844,495, or 46.0\% were household heads or spouses of and owned their home. In 2024, 15,222,742.0 / 43,565,539.0, or 34.9\%. This reflects both a reduction in household headship rates and the conditional probability of ownership. While rising housing costs are a global phenomenon, No Home for The Young?
-Stylised Facts and Policy Challenges1 By Boris Cournède and Marissa Plouin (OECD) shows that between 2007 and 2019, the share of individuals aged 20-29 living with parents was roughly constant overall for OECD countries, but rose dramatically in the U.S. and Canada.
-
-
-
 Data from recent surveys of US consumers highlight the importance of housing as
-both an asset and a liability.  In the 2007 Consumer Expenditure Survey (CEX),
-renters allocated roughly 25 percent of all expenditures to shelter.
-Expenditures for homeowners are difficult to estimate, as tax deductions,
-capital gains and opportunity costs of equity have offsetting effects ignored in
-the expenditure tables.  The mean shelter share is deemed 19\% for owners in the
-CEX.
+both an asset and a liability.  \textcite{freddiemac2024homeowner}, summarizing
+U.S. Consumer Expenditure Survey panel data find that between 1984 and 2023,
+rent grew fairly steadily from roughly 18\%. By contrast, owners collectively
+spent a relatively constant share of expenditures, roughly 15\% over time over
+that period. Mortgage expenditure shares notably fell, not surprisingly given
+falling interest rates and most owners' option to fix rates, offset by rising
+property taxes and other shelter expenditures such as maintenance.
 
-The mean income of owners (\$76,973) is more than double that for renters
-(\$36,976) in CEX.  In the 2000 Census (IPUMS microdata), the median homeowner
-household income was \$49,600, as opposed to the median renter income of
-\$26,800. This difference in incomes by ownership is consistent with a number of
-prominent explanations, such as: the US tax code is increasingly favorable to
-homeownership as income and wealth rise, the normality and age profile of demand
-for detached homes combined with a natural tendency for detached units to be
-owner occupied,\footnote{See, e.g. \citet{GlaeserShapiro}.} and a greater
-prevalence of credit constraints among those with lower income and wealth.
+The unconditional mean income of owners in the 2020-2024 American Community
+Survey was \$101,988, almost double the mean income of renters (\$57,843). In
+the 2000 Census (IPUMS microdata), the median homeowner household income was
+\$49,600, as opposed to the median renter income of \$26,800. This difference
+in incomes by ownership is consistent with a number of prominent explanations,
+such as: the US tax code is increasingly favorable to homeownership as income
+and wealth rise, the normality and age profile of demand for detached homes
+combined with a natural tendency for detached units to be owner
+occupied,\footnote{See, e.g. \citet{GlaeserShapiro}.} and a greater prevalence
+of credit constraints among those with lower income and wealth. 
+
+Consistent with declining tax benefits to homeownership in the U.S. due to
+elimination of state and local tax deductions as well as reduced mortgage
+deductibility benefits due to falling rates, rising standard deductions, and
+caps on mortgage interest deductions, the relationship between homeownership
+and income weakened a bit over time, with the coefficient on log income falling
+from .099 in 2000 Census data (taken from \textcite{IPUMS}) to .084 in
+2020-2024 ACS data (taken from \textcite{IPUMS}). Not surprisingly given the
+positive geographic cross-sectional relationships among education, home prices,
+income, and regulations (\textcite{davidoffCFR}), these coefficients rise to
+.113 and .096, respectively, in the presence of controls for metropolitan area
+fixed effects.\footnote{The full regression specification is a linear
+	probability OLS regression of log income on age dummies and marital
+status dummies, with the sample selected on household heads ages 25 and older.}
 
 The greater housing expenditure for renters than owners found in the CEX 
 is consistent with the empirical consensus that the wealth elasticity of housing
@@ -72,21 +83,24 @@ show that for most homeowners of every age group, housing represents a majority
 of assets.\footnote{These tabulations, unpublished elsewhere were performed by
 Todd Sinai and Moises Yi.}  For most owners under 50, the value of the home is
 greater than net worth.  The ratio of home value to assets and net worth is
-declining with age and income.
+declining with age and income. These patterns continued to hold in the 2016
+SCF, per \textcite{nahb2018homeownership}.
 
 Figure \ref{fig:own_age} plots the profile of mortgage status by age and
 homeownership by age and marital status for household heads in the 2000 US
 census.  Overall, 67\% of household heads report owning the home in which they
 live, and 67\% of owners report owing mortgage debt.  
 
-Figure \ref{fig:own_age} shows that throughout life, married couples are more
-likely to own than rent housing.  A substantial portion of the increase in
-homeownership among household heads in their 20s and 30s comes from increasing
-marriage rates.  Likewise, much of the decline in homeownership among household
-heads late in life can be explained by an increasing prevalence of widowhood.
-This is consistent with the finding of \citet{VentiWise} and others that death
-of a spouse is among the most important triggers of exit from homeownership
-among the elderly.  \citet{CoileMilligan} use HRS/AHEAD data to show that the
+Figure \ref{fig:own_age} shows that throughout life, married couples (with
+spouse present) are more likely to own than rent housing, and far likelier than
+unmarried individuas.\footnote{Those deemed married, spouse absent are
+dropped.}  A substantial portion of the increase in homeownership among
+household heads in their 20s and 30s comes from increasing marriage rates.
+Likewise, much of the decline in homeownership among household heads late in
+life can be explained by an increasing prevalence of widowhood. This is
+consistent with the finding of \citet{VentiWise} and others that death of a
+spouse is among the most important triggers of exit from homeownership among
+the elderly. \citet{CoileMilligan} use HRS/AHEAD data to show that the
 downward trend in homeownership in old age accelerates into the 90s, with ill
 health of individuals joining death of a spouse as a critical cause.  They find
 an ownership rate among individuals of approximately 50\% at age 90, but
@@ -97,7 +111,28 @@ Making use of the patterns depicted in Figure \ref{fig:own_age},
 younger households between 1980 and 2007, attributing this in large part to
 increasing age of first marriage over time.  Increasing overall homeownership
 can be attributed largely to an aging population and increasing homeownership
-among the elderly.  
+among the elderly.  These patterns have persisted. Per 2000 Census data from
+\textcite{IPUMS}, among respondents aged 75 and over, in 2000, 69.8\% were
+household heads or spouses of heads and owned their own residence. In the 2024
+ACS, it was 72.9\%. Among Americans 24-35, in 2000, 46\%
+were household heads or spouses of and owned their home. In 2024, that figure
+had dropped to 34.9\%. This reflects both a reduction in household headship
+rates and the conditional probability of ownership. While rising housing costs
+are a global phenomenon, No Home for The Young?  Stylised Facts and Policy
+Challenges1 By Boris Cournède and Marissa Plouin (OECD) shows that between 2007
+and 2019, the share of individuals aged 20-29 living with parents was roughly
+constant overall for OECD countries, but rose dramatically in the U.S. and
+Canada.
+
+Figure \ref{fig:homeownershipAge_allMetros} plots homeownership rates among household heads by age for the 2000 Census 5\% sample and the 2020-2024 ACS as tabulated by \textcite{IPUMS}.  While overall homeownership has been relatively constant, we see large declines at younger ages (even conditional on household headship) and even more persistent homeownership among seniors. Notably, the figures are not notably different in the difference-in-differences among age groups comparing across metropolitan areas. Figure \ref{fig:homeownershipMetros} plots the same figure as Figure \ref{fig:homeownershipAge_allMetros} but separately for notoriously inelastic and increasingly expensive San Francisco, versus Chicago, which has seen more muted price growth (verify).
+
+\begin{figure}
+\pgfimage[height=8cm]{homeownershipMetros.png}
+
+\begin{figure}
+	\caption{\label{fig:homeownershipAge_allMetros} Homeownership rates by age, 2000 Census and 2020-2024 ACS}
+	\pgfimage[height=8cm]{homeownershipAge_allMetros.png}
+\end{figure}
 
 Among US households, the median and modal number of residential properties owned
 is one.  \citet{AizcorbeKennickellMoore} find that 67\% of households owned
