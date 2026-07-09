@@ -32,48 +32,27 @@ homeownership have yet to become popular.
 Data from surveys of US consumers highlight the importance of housing as
 both an asset and a liability. \textcite{freddiemac2024homeowner}, summarizing
 U.S. Consumer Expenditure Survey panel data find that between 1984 and 2023,
-rent grew fairly steadily from roughly 18\%. By contrast, owners collectively
-spent a relatively constant share of expenditures, roughly 15\% over time over
-that period. Mortgage expenditure shares notably fell, not surprisingly given
-falling interest rates and most owners' option to fix rates, offset by rising
-property taxes and other shelter expenditures such as maintenance.
+rent grew fairly steadily as a share of renters' total expenditures, from
+roughly 18\% to 26\%. By contrast, owners collectively spent a relatively
+constant share of expenditures, roughly 15\% over time over that period.
+Mortgage expenditure shares notably fell, not surprisingly given falling
+interest rates and most owners' option to fix rates, offset by rising property
+taxes and other shelter expenditures such as maintenance.\footnote{The opportunity cost
+of equity and anticipated capital gains, part of true ``user cost''
+(see, e.g. \textcite{Poterba}), are not included in these expenditure shares.}
 
-The unconditional mean income of owners in the 2020-2024 American Community
-Survey was \$101,988, almost double the mean income of renters (\$57,843). In
-the 2000 Census (IPUMS microdata), the median homeowner household income was
-\$49,600, as opposed to the median renter income of \$26,800. This difference
-in incomes by ownership is consistent with a number of prominent explanations,
-such as: the US tax code is increasingly favorable to homeownership as income
-and wealth rise, the normality and age profile of demand for detached homes
-combined with a natural tendency for detached units to be owner
-occupied,\footnote{See, e.g. \citet{GlaeserShapiro}.} and a greater prevalence
-of credit constraints among those with lower income and wealth. 
-
-Consistent with declining tax benefits to homeownership in the U.S. due to
-elimination of state and local tax deductions as well as reduced mortgage
-deductibility benefits due to falling rates, rising standard deductions, and
-caps on mortgage interest deductions, the relationship between homeownership
-and income weakened slightly over time, with the regression coefficient on log
-income (with an indicator for homeownership on the left hand side) falling from
-.099 in 2000 Census data (taken from \textcite{IPUMS}) to .084 in 2020-2024 ACS
-data (taken from \textcite{IPUMS}). Not surprisingly given the positive
-geographic cross-sectional relationships among education, home prices, income,
-and regulations (\textcite{davidoffCFR}), these coefficients rise to .113 for 2000 and
-.096 for 2020-2024, in the presence of controls for metropolitan area fixed
-effects.\footnote{The full regression specification is a linear probability OLS
-regression of log income on age dummies and marital status dummies, with the
-sample selected on household heads ages 25 and older.}
-
-The greater housing expenditure for renters than owners found in the CEX 
-is consistent with the empirical consensus that the wealth elasticity of housing
+The greater housing expenditure for renters than owners found in the CEX is
+consistent with the empirical consensus that the wealth elasticity of housing
 demand is less than one (that is, the fraction of wealth spent on housing falls
 with wealth).\footnote{See, e.g. \citet{Carliner}.}  In the 2000 IPUMS census
 data, I find an elasticity of rent paid with respect to social security income
-of just .25 among retirees who rent housing aged between 65 and 76 in households
-with two members (unconditional on any other characteristics, such as
-metropolitan area housing price differences).
-
-Survey data also provide strong support for the nearly experimental result of
+(intended as a proxy for lifetime income) of just .3 among retirees living
+alone who rent housing aged between 65 and 76.  In the 2020-2024 5-year ACS,
+that value rises to .47.\footnote{These results are conditional only on
+	metropolitan area dummies and the year for the 5-year ACS.} Rent
+	relative to social security income is higher in larger and more
+	expensive metropolitan areas, an interesting counterpoint to the
+	finding in Survey data also provide strong support for the nearly experimental result of
 \citet{HanushekQuigley} that the price elasticity of demand for housing is less
 than one (that is, spending on housing rises as the price of housing rises).
 Despite similar incomes, renters in central cities in the CEX spend 22\% of
@@ -81,6 +60,8 @@ income on shelter, as opposed to 13\% among renters in rural areas.\footnote{An
 intriguing result of \citet{DavisFOM} is that despite these low income and price
 elasticities, the distribution of expenditure shares among renters is very close
 to constant across time and US metropolitan areas.}
+
+
 
 Tabulations of 2004 Survey of Consumer Finances data in Table \ref{tab:assets}
 show that for most homeowners of every age group, housing represents a majority
@@ -141,6 +122,33 @@ Figure \ref{fig:homeownershipAge_allMetros} plots homeownership rates among hous
 Among US households, the median and modal number of residential properties owned
 is one.  \citet{AizcorbeKennickellMoore} find that 67\% of households owned
 housing in 2001, but only 12.8\% owned a second home or rental housing.  
+
+The unconditional mean income of owners in the 2020-2024 American Community
+Survey was \$101,988, almost double the mean income of renters (\$57,843). In
+the 2000 Census (IPUMS microdata), the median homeowner household income was
+\$49,600, as opposed to the median renter income of \$26,800. This difference
+in incomes by ownership is consistent with a number of prominent explanations,
+such as: the US tax code is increasingly favorable to homeownership as income
+and wealth rise, the normality and age profile of demand for detached homes
+combined with a natural tendency for detached units to be owner
+occupied,\footnote{See, e.g. \citet{GlaeserShapiro}.} and a greater prevalence
+of credit constraints among those with lower income and wealth. 
+
+Consistent with declining tax benefits to homeownership in the U.S. due to
+elimination of state and local tax deductions as well as reduced mortgage
+deductibility benefits due to falling rates, rising standard deductions, and
+caps on mortgage interest deductions, the relationship between homeownership
+and income weakened slightly over time, with the regression coefficient on log
+income (with an indicator for homeownership on the left hand side) falling from
+.099 in 2000 Census data (taken from \textcite{IPUMS}) to .084 in 2020-2024 ACS
+data (taken from \textcite{IPUMS}). Not surprisingly given the positive
+geographic cross-sectional relationships among education, home prices, income,
+and regulations (\textcite{davidoffCFR}), these coefficients rise to .113 for 2000 and
+.096 for 2020-2024, in the presence of controls for metropolitan area fixed
+effects.\footnote{The full regression specification is a linear probability OLS
+regression of log income on age dummies and marital status dummies, with the
+sample selected on household heads ages 25 and older.}
+
 
 \section{Housing wealth in the life cycle: theoretical problems}
 

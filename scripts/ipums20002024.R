@@ -6,6 +6,34 @@ library(data.table)
 library(ggplot2)
 library(fixest)
 
+dE <- fread("~/DropboxExternal/dataRaw/ipums/usa_00055.csv")
+print(head(dE))
+CUTQUANT <- .1
+dE <- dE[INCSS>0 & RENT>0 & MET2013>0 & INCSS!=99999 & (HHTYPE==4 | HHTYPE==6)]
+print(summary(dE))
+print(quantile(dE[YEAR==2000,INCSS]))
+print(quantile(dE[YEAR==2000,INCSS],.1))
+print(quantile(dE[YEAR!=2000,INCSS],.1))
+print(quantile(dE[YEAR!=2000,RENT],.1))
+print(summary(feols(log(RENT) ~ log(INCSS) | MET2013,data=dE[YEAR==2000 & RENT>quantile(RENT,CUTQUANT) & INCSS>quantile(INCSS,CUTQUANT)])))
+print(summary(feols(log(RENT) ~ log(INCSS) | MET2013 + MULTYEAR,data=dE[YEAR!=2000 & RENT>quantile(RENT,CUTQUANT) & INCSS>quantile(INCSS,CUTQUANT)])))
+print(summary(feols(log(RENT) ~ log(INCSS) ,data=dE[YEAR==2000 & RENT>quantile(RENT,CUTQUANT) & INCSS>quantile(INCSS,CUTQUANT)])))
+print(summary(feols(log(RENT) ~ log(INCSS) ,data=dE[YEAR!=2000 & RENT>quantile(RENT,CUTQUANT) & INCSS>quantile(INCSS,CUTQUANT)])))
+
+# Davis - FOM
+dShare <- data.table(rentLevel=numeric(),rentShare=numeric(),N=numeric())
+for (m in unique(dE[,MET2013])) {
+  print(m)
+  dm <- dE[YEAR!=2000 & MET2013==m, .(rentLevel=median(RENT), rentShare=12*median(RENT/INCSS), N=.N)]
+  dShare <- rbind(dShare, dm)
+}
+dShare <- dShare[!is.na(rentLevel) & !is.na(rentShare)]
+print(summary(dShare))
+print(cor(dShare))
+
+
+q("no")
+
 df <- fread("~/DropboxExternal/dataRaw/ipums20002024Tenure.csv")
 head(df)
 print(names(df))
