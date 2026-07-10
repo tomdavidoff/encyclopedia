@@ -1,0 +1,83 @@
+
+R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # mortgageAge.R
+> # plot mortgage status by age among household heads in IPUMS 2000 5% and 2020-2024 5 Year ACS
+> # Tom Davidoff 
+> # 07/09/26
+> 
+> 
+> library(data.table)
+> library(ggplot2)
+> 
+> 
+> d0 <- fread("~/DropboxExternal/dataRaw/ipums/mortgageOwnerHeads2000.csv",skip=12)
+Warning message:
+In fread("~/DropboxExternal/dataRaw/ipums/mortgageOwnerHeads2000.csv",  :
+  Stopped early on line 81. Expected 3 fields but found 0. Consider fill=TRUE. First discarded non-empty line: <<Weighted N,25 25,388760.0>>
+> d0[,source:="2000 Census"]
+> print(head(d0))
+       V1     V2    V3      source
+   <char> <char> <num>      <char>
+1:   Mean  25 25  1.81 2000 Census
+2:   Mean  26 26  1.83 2000 Census
+3:   Mean  27 27  1.84 2000 Census
+4:   Mean  28 28  1.86 2000 Census
+5:   Mean  29 29  1.87 2000 Census
+6:   Mean  30 30  1.88 2000 Census
+> 
+> d24 <- fread("~/DropboxExternal/dataRaw/ipums/mortgageOwnerHeads2024.csv",skip=12)
+Warning message:
+In fread("~/DropboxExternal/dataRaw/ipums/mortgageOwnerHeads2024.csv",  :
+  Stopped early on line 87. Expected 3 fields but found 0. Consider fill=TRUE. First discarded non-empty line: <<Weighted N,25 25,371194.0>>
+> d24[,source:="2020-2024 ACS"]
+> print(head(d24))
+       V1     V2    V3        source
+   <char> <char> <num>        <char>
+1:   Mean  25 25  1.78 2020-2024 ACS
+2:   Mean  26 26  1.80 2020-2024 ACS
+3:   Mean  27 27  1.81 2020-2024 ACS
+4:   Mean  28 28  1.82 2020-2024 ACS
+5:   Mean  29 29  1.83 2020-2024 ACS
+6:   Mean  30 30  1.83 2020-2024 ACS
+> 
+> dT <- rbind(d0,d24)
+> dT[,age:=as.numeric(substring(V2,1,2))]
+Warning message:
+In eval(jsub, SDenv, parent.frame()) : NAs introduced by coercion
+> dT[,mortgageStatus:=V3-1] # V3 is 1=No mortgage, 2=Mortgage, so subtract 1 to get 0=No mortgage, 1=Mortgage
+> 
+> # typical econ journal plot -- ticks on vertical axis and horizontal. No weird shading. yes ticks with value labels lik
+> ggplot(dT[,.(mortgageStatus,age,source)]) +
++   geom_point(aes(x=age,y=mortgageStatus,color=source)) +
++   scale_y_continuous(breaks=seq(0,1,.2),limits=c(0,1)) +
++   scale_x_continuous(breaks=seq(20,100,10)) +
++   labs(x="Age",y="Share with mortgage debt",color="Data Source") +
++   theme_classic()
+Warning message:
+Removed 2 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+> ggsave("text/mortgageStatusByAge.png",width=8,height=6)
+Warning message:
+Removed 2 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+> 
+> proc.time()
+   user  system elapsed 
+  0.733   0.068   0.794 

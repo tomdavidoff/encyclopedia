@@ -1,0 +1,1386 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{AizcorbeKennickellMoore}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=607b5f440d02370d451328fb09c2b430}{%
+           family={Aizcorbe},
+           familyi={A\bibinitperiod},
+           given={Ana\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fefe62d5ae346827f48a61888e534b6c}{%
+           family={Kennickell},
+           familyi={K\bibinitperiod},
+           given={Arthur\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d9dfff405d0cb07cd586dcfd7c19ece}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Kevin\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{fullhash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{fullhashraw}{058576be73a4e6ead537e6f748b89c28}
+      \strng{bibnamehash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{authorbibnamehash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{authornamehash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{authorfullhash}{058576be73a4e6ead537e6f748b89c28}
+      \strng{authorfullhashraw}{058576be73a4e6ead537e6f748b89c28}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Federal Reserve Bulletin}
+      \field{month}{1}
+      \field{title}{Recent Changes in U.S. Family Finances: Evidence from the 1998 and 2001 Survey of Consumer Finances}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{ArtleVaraiya}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c7bc9eea82b0c4bad6d8e5cff6b80e53}{%
+           family={Artle},
+           familyi={A\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0690707bf7b98342cce0da056d121d00}{%
+           family={Varaiya},
+           familyi={V\bibinitperiod},
+           given={Pravin},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{fullhash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{fullhashraw}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{bibnamehash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{authorbibnamehash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{authornamehash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{authorfullhash}{511f91e86a529fc827ecd996c17bd62e}
+      \strng{authorfullhashraw}{511f91e86a529fc827ecd996c17bd62e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Theory}
+      \field{number}{1}
+      \field{title}{Life Cycle Consumption and Homeownership}
+      \field{volume}{18}
+      \field{year}{1978}
+      \field{pages}{38\bibrangedash 58}
+      \range{pages}{21}
+    \endentry
+    \entry{BanksBlundellOldfieldSmith}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=64e58018f40eba89f3a794047fa8c6f8}{%
+           family={Banks},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=201b803c1acac5e453b4e3a14b816b3b}{%
+           family={Blundell},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d0adfbebc342f7e3ca2f2dd9906011d}{%
+           family={Oldfield},
+           familyi={O\bibinitperiod},
+           given={Zoë},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa176b95116c9a3196740c67459d5095}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research, Inc}%
+      }
+      \strng{namehash}{7750749aa9147ed05e901faba12cc59e}
+      \strng{fullhash}{e4a301dad2a07af639c47af713bcc34d}
+      \strng{fullhashraw}{e4a301dad2a07af639c47af713bcc34d}
+      \strng{bibnamehash}{7750749aa9147ed05e901faba12cc59e}
+      \strng{authorbibnamehash}{7750749aa9147ed05e901faba12cc59e}
+      \strng{authornamehash}{7750749aa9147ed05e901faba12cc59e}
+      \strng{authorfullhash}{e4a301dad2a07af639c47af713bcc34d}
+      \strng{authorfullhashraw}{e4a301dad2a07af639c47af713bcc34d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{13496}
+      \field{title}{Housing Price Volatility and Downsizing in Later Life}
+      \field{type}{NBER Working Papers}
+      \field{year}{2007}
+    \endentry
+    \entry{AARP}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=11c4819d0524a2e81b8ffaaccda81725}{%
+           family={Bayer},
+           familyi={B\bibinitperiod},
+           given={Ada-Helen},
+           giveni={A\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65e30d6bf2436fe5b8b7c07474bbfe61}{%
+           family={Harper},
+           familyi={H\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {AARP}%
+      }
+      \strng{namehash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{fullhash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{fullhashraw}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{bibnamehash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{authorbibnamehash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{authornamehash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{authorfullhash}{eaddc56948e8194eaee2e0cdb79428d9}
+      \strng{authorfullhashraw}{eaddc56948e8194eaee2e0cdb79428d9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fixing to Stay a National Survey of Housing and Home Modification Issues}
+      \field{type}{Research Report}
+      \field{year}{2000}
+    \endentry
+    \entry{Brueckner}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b051d966c2ae53100fe3fff24021200d}{%
+           family={Brueckner},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{fullhash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{fullhashraw}{b051d966c2ae53100fe3fff24021200d}
+      \strng{bibnamehash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{authorbibnamehash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{authornamehash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{authorfullhash}{b051d966c2ae53100fe3fff24021200d}
+      \strng{authorfullhashraw}{b051d966c2ae53100fe3fff24021200d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Real Estate Finance and Economics}
+      \field{number}{2}
+      \field{title}{Consumption and Investment Motives and Portfolio Choices of Homeowners}
+      \field{volume}{15}
+      \field{year}{1997}
+      \field{pages}{159\bibrangedash 180}
+      \range{pages}{22}
+    \endentry
+    \entry{CaplinChanFreemanTracy}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f37b58853222789ef61c6fe4f7113d6b}{%
+           family={Caplin},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2274e7728c43ec911862b3bec55908bc}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Sewin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=615dca4a42bd2723d36d731a7b2fce8c}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07af3de7a6faf4c46e3e370be1e13ca2}{%
+           family={Tracy},
+           familyi={T\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{1a406c1ab2c79aa59a98a9be182f8553}
+      \strng{fullhash}{d93458dd2458aae6cf1244323e5252a2}
+      \strng{fullhashraw}{d93458dd2458aae6cf1244323e5252a2}
+      \strng{bibnamehash}{1a406c1ab2c79aa59a98a9be182f8553}
+      \strng{authorbibnamehash}{1a406c1ab2c79aa59a98a9be182f8553}
+      \strng{authornamehash}{1a406c1ab2c79aa59a98a9be182f8553}
+      \strng{authorfullhash}{d93458dd2458aae6cf1244323e5252a2}
+      \strng{authorfullhashraw}{d93458dd2458aae6cf1244323e5252a2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Housing Partnerships: A new approach to markets at a crossroads}
+      \field{year}{1997}
+    \endentry
+    \entry{Carliner}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dba41e2c7144de321adf986585d92c3b}{%
+           family={Carliner},
+           familyi={C\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{fullhash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{fullhashraw}{dba41e2c7144de321adf986585d92c3b}
+      \strng{bibnamehash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{authorbibnamehash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{authornamehash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{authorfullhash}{dba41e2c7144de321adf986585d92c3b}
+      \strng{authorfullhashraw}{dba41e2c7144de321adf986585d92c3b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Income Elasticity of Housing Demand}
+      \field{volume}{55}
+      \field{year}{1973}
+      \field{pages}{528\bibrangedash 532}
+      \range{pages}{5}
+    \endentry
+    \entry{ChettySzeidlra}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7a853740afbc544905334cf607b3cd51}{%
+           family={Chetty},
+           familyi={C\bibinitperiod},
+           given={Raj},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b877ff2e73a6ad7a10f847ab7c06f70c}{%
+           family={Szeidl},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{fullhash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{fullhashraw}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{bibnamehash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{authorbibnamehash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{authornamehash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{authorfullhash}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \strng{authorfullhashraw}{6ea5f1a44e53abd68baaf616e5e904e6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{Consumption Commitments and Risk Preferences}
+      \field{volume}{122}
+      \field{year}{2007}
+      \field{pages}{831\bibrangedash 877}
+      \range{pages}{47}
+    \endentry
+    \entry{CoileMilligan}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b70d675804d2ddce9c2bb2aa795d7561}{%
+           family={Coile},
+           familyi={C\bibinitperiod},
+           given={Courtney},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5ed1846eb3b64d8c164c456e448dd1b}{%
+           family={Milligan},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{fullhash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{fullhashraw}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{bibnamehash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{authorbibnamehash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{authornamehash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{authorfullhash}{de2b3b7604804aac55dfdaaf4d49490a}
+      \strng{authorfullhashraw}{de2b3b7604804aac55dfdaaf4d49490a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Income and Wealth}
+      \field{number}{2}
+      \field{title}{How Household Portfolios Evolve After Retirement: The Effect of Aging and Health Shocks}
+      \field{volume}{55}
+      \field{year}{2009}
+      \field{pages}{226\bibrangedash 248}
+      \range{pages}{23}
+    \endentry
+    \entry{Davidoffpuzzle}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
+           family={Davidoff},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{bibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorbibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authornamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Insurance}
+      \field{number}{1}
+      \field{title}{Housing, Health, and Annuities}
+      \field{volume}{76}
+      \field{year}{2009}
+      \field{pages}{31\bibrangedash 52}
+      \range{pages}{22}
+    \endentry
+    \entry{davidoffCFR}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
+           family={Davidoff},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{bibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorbibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authornamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Critical Finance Review}
+      \field{number}{2}
+      \field{title}{Supply Constraints Are Not Valid Instrumental Variables for Home Prices Because They Are Correlated With Many Demand Factors}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{pages}{177\bibrangedash 206}
+      \range{pages}{30}
+    \endentry
+    \entry{Davidoffltc}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
+           family={Davidoff},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{fullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{bibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorbibnamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authornamehash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhash}{d5a1764dcb36f8683837327b4f420c6f}
+      \strng{authorfullhashraw}{d5a1764dcb36f8683837327b4f420c6f}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Home Equity Commitment and Long-Term Care Insurance Demand}
+      \field{year}{forthcoming}
+    \endentry
+    \entry{DavisFOM}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1386da529a29c518ff03791559e427d0}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Morris\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2738d5eb9019e1340a812a4e390ef763}{%
+           family={Ortalo-Magné},
+           familyi={O\bibinithyphendelim M\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Wisconsin-Madison}%
+      }
+      \strng{namehash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{fullhash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{fullhashraw}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{bibnamehash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{authorbibnamehash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{authornamehash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{authorfullhash}{8244f421b3f93f5f8363ee63067a890f}
+      \strng{authorfullhashraw}{8244f421b3f93f5f8363ee63067a890f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Househould Expenditures, Wages, Rents}
+      \field{type}{working paper}
+      \field{year}{2007}
+    \endentry
+    \entry{DengQuigleyVanOrder}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=21ce5a476d3f0db73bbd4a1b72c8ec1d}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yongheng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=32c52150ea2f7014a3acb1c0549dc8e5}{%
+           family={Quigley},
+           familyi={Q\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=75d9c4707dbd990170c989254040cc57}{%
+           family={Van\bibnamedelima Order},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{fullhash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{fullhashraw}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{bibnamehash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{authorbibnamehash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{authornamehash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{authorfullhash}{6b52829610c240d45f90b433a97b4bc2}
+      \strng{authorfullhashraw}{6b52829610c240d45f90b433a97b4bc2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Mortgage Terminations, Heterogeneity and the Exercise of Mortgage Options}
+      \field{volume}{68}
+      \field{year}{2000}
+      \field{pages}{275\bibrangedash 307}
+      \range{pages}{33}
+    \endentry
+    \entry{Engelhardt96}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=501bc5b9549363f8c164766803a5ea2f}{%
+           family={Englehardt},
+           familyi={E\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{fullhash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{fullhashraw}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{bibnamehash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{authorbibnamehash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{authornamehash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{authorfullhash}{501bc5b9549363f8c164766803a5ea2f}
+      \strng{authorfullhashraw}{501bc5b9549363f8c164766803a5ea2f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Money, Credit and Banking}
+      \field{title}{Consumption, Down Payments and Liquidity Constraints}
+      \field{volume}{28}
+      \field{year}{1996}
+      \field{pages}{255\bibrangedash 271}
+      \range{pages}{17}
+    \endentry
+    \entry{EvansHendersonHobson}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=353301ca114dc4b03cf7faa90e421eac}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=9c5043365909c0c401a370cd98817d04}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={Vicky},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9bb8bb07c64319c35f19fea78b9dc1b7}{%
+           family={Hobson},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{fullhash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{fullhashraw}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{bibnamehash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{authorbibnamehash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{authornamehash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{authorfullhash}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \strng{authorfullhashraw}{cbd36fb988cc16dce0c5c838a49e17cc}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Finance}
+      \field{title}{Optimal Timing for an Indivisible Asset Sale}
+      \field{year}{Forthcoming}
+    \endentry
+    \entry{FlavinYamashita}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9c32c7a93abe8cf88d91856bd08ce12f}{%
+           family={Flavin},
+           familyi={F\bibinitperiod},
+           given={Marjorie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4143d224774ba1d02abfac7dd35b09a}{%
+           family={Yamashita},
+           familyi={Y\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{fullhash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{fullhashraw}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{bibnamehash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{authorbibnamehash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{authornamehash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{authorfullhash}{fea0b2dff7aa343129764e464de53ab9}
+      \strng{authorfullhashraw}{fea0b2dff7aa343129764e464de53ab9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{1}
+      \field{title}{Owner-Occupied Housing and the Composition of the Household Portfolio}
+      \field{volume}{92}
+      \field{year}{2002}
+      \field{pages}{345\bibrangedash 362}
+      \range{pages}{18}
+    \endentry
+    \entry{GlaeserShapiro}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2b41d6ca29618683e119f3255b723113}{%
+           family={Glaeser},
+           familyi={G\bibinitperiod},
+           given={Edward\bibnamedelima L},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c79dd8f85eed6a02cd9ccbc44c47c51}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={Jesse\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{fullhash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{fullhashraw}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{bibnamehash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{authorbibnamehash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{authornamehash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{authorfullhash}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \strng{authorfullhashraw}{8a4f4f6ad48e853836c5d00fb67093f9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tax Policy and the Economy}
+      \field{month}{9}
+      \field{title}{The Benefits of the Home Mortgage Deduction}
+      \field{volume}{17}
+      \field{year}{2003}
+      \field{pages}{37\bibrangedash 82}
+      \range{pages}{46}
+    \endentry
+    \entry{HanushekQuigley}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ab739a255c8b5c754c14f9fa8eefafdf}{%
+           family={Hanushek},
+           familyi={H\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=1540caa2faa94770c2dbaaef36c80ac0}{%
+           family={Quigley},
+           familyi={Q\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{a53b928956307898f357169fb23f7c8b}
+      \strng{fullhash}{a53b928956307898f357169fb23f7c8b}
+      \strng{fullhashraw}{a53b928956307898f357169fb23f7c8b}
+      \strng{bibnamehash}{a53b928956307898f357169fb23f7c8b}
+      \strng{authorbibnamehash}{a53b928956307898f357169fb23f7c8b}
+      \strng{authornamehash}{a53b928956307898f357169fb23f7c8b}
+      \strng{authorfullhash}{a53b928956307898f357169fb23f7c8b}
+      \strng{authorfullhashraw}{a53b928956307898f357169fb23f7c8b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{month}{8}
+      \field{title}{What is the Price Elasticity of Housing Demand?}
+      \field{volume}{62}
+      \field{year}{1980}
+      \field{pages}{449\bibrangedash 454}
+      \range{pages}{6}
+    \endentry
+    \entry{HendersonIoannides}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=1236e5f38bcb88483d0fa7419f61e73d}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi Vernon},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4bf7239f57d971fa31bac0d216340d31}{%
+           family={Ioannides},
+           familyi={I\bibinitperiod},
+           given={Yannis},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{fullhash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{fullhashraw}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{bibnamehash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{authorbibnamehash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{authornamehash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{authorfullhash}{3a93932d99de32d6d5cb8257536be4cc}
+      \strng{authorfullhashraw}{3a93932d99de32d6d5cb8257536be4cc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Economic Review}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A Model of Housing Tenure Choice}
+      \field{volume}{73}
+      \field{year}{1983}
+      \field{pages}{98\bibrangedash 113}
+      \range{pages}{16}
+    \endentry
+    \entry{Horioka}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da2d18ce57d45e5c53d6c021407afdbc}{%
+           family={Horioka},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{fullhash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{fullhashraw}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{bibnamehash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{authorbibnamehash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{authornamehash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{authorfullhash}{da2d18ce57d45e5c53d6c021407afdbc}
+      \strng{authorfullhashraw}{da2d18ce57d45e5c53d6c021407afdbc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Japanese and International Economies}
+      \field{title}{Do the Aged Dissave in Japan?}
+      \field{volume}{10}
+      \field{year}{1996}
+      \field{pages}{295\bibrangedash 311}
+      \range{pages}{17}
+    \endentry
+    \entry{Hurd90}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3a1b33cdf017ec4331e4311b63d9b61}{%
+           family={Hurd},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=71ce91a7e580fd69bf6960c36533eda7}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{fullhash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{fullhashraw}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{bibnamehash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{authorbibnamehash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{authornamehash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{authorfullhash}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{authorfullhashraw}{d3a1b33cdf017ec4331e4311b63d9b61}
+      \strng{editorbibnamehash}{71ce91a7e580fd69bf6960c36533eda7}
+      \strng{editornamehash}{71ce91a7e580fd69bf6960c36533eda7}
+      \strng{editorfullhash}{71ce91a7e580fd69bf6960c36533eda7}
+      \strng{editorfullhashraw}{71ce91a7e580fd69bf6960c36533eda7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Topics in the Economics of Aging}
+      \field{title}{Wealth Depletion and Life Cycle Consumption by the Elderly}
+      \field{year}{1992}
+      \field{pages}{135\bibrangedash 162}
+      \range{pages}{28}
+    \endentry
+    \entry{freddiemac2024homeowner}{report}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=003ea8e7dffaea04b3cd7ec2e789428a}{%
+           family={Khater},
+           familyi={K\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eacfb40cf0c9ac7de22fa537e3bc212}{%
+           family={Kiefer},
+           familyi={K\bibinitperiod},
+           given={Len},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70c929e77c88960697c4b26151391cad}{%
+           family={Atreya},
+           familyi={A\bibinitperiod},
+           given={Ajita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c4a3a1af2ef7cbc8e5b2a5300b2719f}{%
+           family={Yanamandra},
+           familyi={Y\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71fa6cf4acc8f1818d8fac8e1e17c611}{%
+           family={Trentcheva},
+           familyi={T\bibinitperiod},
+           given={Penka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b39bcc45f287dbbf945aff343b93e2a}{%
+           family={Villa},
+           familyi={V\bibinitperiod},
+           given={Genaro},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc8d181ff5b539a4b343872b6953f967}{%
+           family={Cheatham},
+           familyi={C\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Freddie Mac Economic \& Housing Research}%
+      }
+      \strng{namehash}{98d40046a6e08bd29e97e0e8c1517358}
+      \strng{fullhash}{23a3e17a81faf947906405628fbab706}
+      \strng{fullhashraw}{23a3e17a81faf947906405628fbab706}
+      \strng{bibnamehash}{98d40046a6e08bd29e97e0e8c1517358}
+      \strng{authorbibnamehash}{98d40046a6e08bd29e97e0e8c1517358}
+      \strng{authornamehash}{98d40046a6e08bd29e97e0e8c1517358}
+      \strng{authorfullhash}{23a3e17a81faf947906405628fbab706}
+      \strng{authorfullhashraw}{23a3e17a81faf947906405628fbab706}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Homeowner vs. Renter Spending in an Era of Rising Housing Costs}
+      \field{type}{Research Spotlight}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.freddiemac.com/research/insight/homeowner-vs-renter-spending
+      \endverb
+      \verb{url}
+      \verb https://www.freddiemac.com/research/insight/homeowner-vs-renter-spending
+      \endverb
+    \endentry
+    \entry{MiceliSirmans}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a6318b6643d87d8b357f411686f06489}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7537b5638fcb4b255353306012bf26ed}{%
+           family={Sirmans},
+           familyi={S\bibinitperiod},
+           given={C.F.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{fullhash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{fullhashraw}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{bibnamehash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{authorbibnamehash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{authornamehash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{authorfullhash}{3a6f81fce5d1534b7dda730ecce83514}
+      \strng{authorfullhashraw}{3a6f81fce5d1534b7dda730ecce83514}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Real Estate and Urban Economics Association}
+      \field{number}{2}
+      \field{title}{Reverse Mortgage and Borrower Maintenance Risk}
+      \field{volume}{22}
+      \field{year}{1994}
+      \field{pages}{257\bibrangedash 299}
+      \range{pages}{43}
+    \endentry
+    \entry{nahb2018homeownership}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09dc132af8a789a53a324a7b3b4d5426}{%
+           family={{National Association of Home Builders}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {National Association of Home Builders}%
+      }
+      \strng{namehash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{fullhash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{fullhashraw}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{bibnamehash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{authorbibnamehash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{authornamehash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{authorfullhash}{09dc132af8a789a53a324a7b3b4d5426}
+      \strng{authorfullhashraw}{09dc132af8a789a53a324a7b3b4d5426}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eye on Housing}
+      \field{month}{3}
+      \field{title}{Homeownership is Key to Household Wealth}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://eyeonhousing.org/2018/03/homeownership-is-key-to-household-wealth/
+      \endverb
+      \verb{url}
+      \verb https://eyeonhousing.org/2018/03/homeownership-is-key-to-household-wealth/
+      \endverb
+    \endentry
+    \entry{OrtaloMagneRady}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2738d5eb9019e1340a812a4e390ef763}{%
+           family={Ortalo-Magné},
+           familyi={O\bibinithyphendelim M\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4bddf47e580ef68b6bdc6ad58692bec}{%
+           family={Rady},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{fullhash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{fullhashraw}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{bibnamehash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{authorbibnamehash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{authornamehash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{authorfullhash}{602a2ab5f3d419be3f83c008350b4563}
+      \strng{authorfullhashraw}{602a2ab5f3d419be3f83c008350b4563}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economic Studies}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{Housing Market Dynamics: On the Contribution of Income Shocks and Credit Constraints}
+      \field{volume}{73}
+      \field{year}{2006}
+      \field{pages}{459\bibrangedash 485}
+      \range{pages}{27}
+    \endentry
+    \entry{Poterba}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8eac1f708dfc6a357a2a2ca1796e3a26}{%
+           family={Poterba},
+           familyi={P\bibinitperiod},
+           given={James\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{fullhash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{fullhashraw}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{bibnamehash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{authorbibnamehash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{authornamehash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{authorfullhash}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \strng{authorfullhashraw}{8eac1f708dfc6a357a2a2ca1796e3a26}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{4}
+      \field{title}{Tax Subsidies to Owner-Occupied Housing: An Asset-Market Approach}
+      \field{volume}{99}
+      \field{year}{1984}
+      \field{pages}{729\bibrangedash 752}
+      \range{pages}{24}
+    \endentry
+    \entry{IPUMS}{misc}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=7387f51a82f67bf6afaf06e50696a5ba}{%
+           family={Ruggles},
+           familyi={R\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1fdad8c06cc33521b145d93817da67}{%
+           family={Flood},
+           familyi={F\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87928807d3b2c56017eaad58f9f65811}{%
+           family={Sobek},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac102c2f04dd0843244ab1807aaab6c0}{%
+           family={Backman},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e5890410e9c49d30a39e1ed5f890f7a}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Grace},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db3e3133d4aaf94567adc6896ec62501}{%
+           family={Drew},
+           familyi={D\bibinitperiod},
+           given={Julia\bibnamedelimb A.\bibnamedelimi Rivera},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=183f9332e7955f582d84acff6c86edf2}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570497cc6a88ca524bb0fec79092165c}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Renae},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36fe880a83819ae0b378aa7b9ea509f8}{%
+           family={Schroeder},
+           familyi={S\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=139f086fef52aa931aa591a1f0c4f3b6}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Kari\bibnamedelima C.W.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{fullhash}{64abcabfc40f306d5b629e76e01c2a50}
+      \strng{fullhashraw}{64abcabfc40f306d5b629e76e01c2a50}
+      \strng{bibnamehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{authorbibnamehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{authornamehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{authorfullhash}{64abcabfc40f306d5b629e76e01c2a50}
+      \strng{authorfullhashraw}{64abcabfc40f306d5b629e76e01c2a50}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IPUMS USA: Version 16.0 [dataset]}
+      \field{year}{2025}
+    \endentry
+    \entry{SchachterKuenzi}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b08f1d31f7fa5dee50876df28d6d32a3}{%
+           family={Schachter},
+           familyi={S\bibinitperiod},
+           given={Jason\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da81e0526267eb0f23dc99f845b2e31c}{%
+           family={Kuenzi},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Population Division, U. S. Census Bureau}%
+      }
+      \strng{namehash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{fullhash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{fullhashraw}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{bibnamehash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{authorbibnamehash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{authornamehash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{authorfullhash}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \strng{authorfullhashraw}{701a8d4dd6ce3aaf2d5f9ddae7f63f13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{69}
+      \field{title}{Seasonality of Moves and The Duration and Tenure of Residence: 1996}
+      \field{type}{Working Paper}
+      \field{year}{2002}
+    \endentry
+    \entry{Shelton}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c34129de860bde33c688e236a1f3619}{%
+           family={Shelton},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c34129de860bde33c688e236a1f3619}
+      \strng{fullhash}{9c34129de860bde33c688e236a1f3619}
+      \strng{fullhashraw}{9c34129de860bde33c688e236a1f3619}
+      \strng{bibnamehash}{9c34129de860bde33c688e236a1f3619}
+      \strng{authorbibnamehash}{9c34129de860bde33c688e236a1f3619}
+      \strng{authornamehash}{9c34129de860bde33c688e236a1f3619}
+      \strng{authorfullhash}{9c34129de860bde33c688e236a1f3619}
+      \strng{authorfullhashraw}{9c34129de860bde33c688e236a1f3619}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Land Economics}
+      \field{number}{1}
+      \field{title}{The Cost of Owning Vs. Renting a Home}
+      \field{volume}{44}
+      \field{year}{1968}
+      \field{pages}{59\bibrangedash 72}
+      \range{pages}{14}
+    \endentry
+    \entry{Shiller}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c8da582bc3255fb10497c14abc2e4b4}{%
+           family={Shiller},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{fullhash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{fullhashraw}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{bibnamehash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{authorbibnamehash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{authornamehash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{authorfullhash}{2c8da582bc3255fb10497c14abc2e4b4}
+      \strng{authorfullhashraw}{2c8da582bc3255fb10497c14abc2e4b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macro Markets}
+      \field{year}{1993}
+    \endentry
+    \entry{SinaiSouleles}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=93bfdf4f640820942e652d1faa107fc4}{%
+           family={Sinai},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92c1d44f7addcc227dfda89fbd26d151}{%
+           family={Souleles},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{fullhash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{fullhashraw}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{bibnamehash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{authorbibnamehash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{authornamehash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{authorfullhash}{d3ffe46a004fcf4b612de2c489a32279}
+      \strng{authorfullhashraw}{d3ffe46a004fcf4b612de2c489a32279}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{number}{2}
+      \field{title}{Owner Occupied Housing as Insurance Against Rent Risk}
+      \field{volume}{120}
+      \field{year}{2005}
+      \field{pages}{763\bibrangedash 789}
+      \range{pages}{27}
+    \endentry
+    \entry{Skinner}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30f315c5f9298e93c8788e62c513da02}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4113665da8685d215771271a11d964c8}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{2}{%
+        {NBER}%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{fullhash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{fullhashraw}{30f315c5f9298e93c8788e62c513da02}
+      \strng{bibnamehash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{authorbibnamehash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{authornamehash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{authorfullhash}{30f315c5f9298e93c8788e62c513da02}
+      \strng{authorfullhashraw}{30f315c5f9298e93c8788e62c513da02}
+      \strng{editorbibnamehash}{4113665da8685d215771271a11d964c8}
+      \strng{editornamehash}{4113665da8685d215771271a11d964c8}
+      \strng{editorfullhash}{4113665da8685d215771271a11d964c8}
+      \strng{editorfullhashraw}{4113665da8685d215771271a11d964c8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in the Economics of Aging}
+      \field{title}{Is Housing Wealth a Sideshow?}
+      \field{year}{1996}
+      \field{pages}{241\bibrangedash 271}
+      \range{pages}{31}
+    \endentry
+    \entry{VentiWise}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cea527f7b492227e30c801763825b4c3}{%
+           family={Venti},
+           familyi={V\bibinitperiod},
+           given={Steven\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4113665da8685d215771271a11d964c8}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{fullhash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{fullhashraw}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{bibnamehash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{authorbibnamehash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{authornamehash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{authorfullhash}{343b64b77296885ee5cd108b1533fd4d}
+      \strng{authorfullhashraw}{343b64b77296885ee5cd108b1533fd4d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{NBER Working Paper 7882}
+      \field{title}{Aging and Housing Equity}
+      \field{year}{2000}
+    \endentry
+    \entry{Weil}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f50e81634a8bede26e13b8343c2ab466}{%
+           family={Weil},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{fullhash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{fullhashraw}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{bibnamehash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{authorbibnamehash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{authornamehash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{authorfullhash}{f50e81634a8bede26e13b8343c2ab466}
+      \strng{authorfullhashraw}{f50e81634a8bede26e13b8343c2ab466}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly Journal of Economics}
+      \field{number}{1}
+      \field{title}{The Saving of the Elderly in Micro and Macro Data}
+      \field{volume}{99}
+      \field{year}{1994}
+      \field{pages}{55\bibrangedash 81}
+      \range{pages}{27}
+    \endentry
+  \enddatalist
+  \missing{FisherGervais}
+\endrefsection
+\endinput
+
