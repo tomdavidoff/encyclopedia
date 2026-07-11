@@ -64,21 +64,62 @@ to constant across time and US metropolitan areas.}
 
 Tabulations of 2004 Survey of Consumer Finances data in Table \ref{tab:assets}
 show that for most homeowners of every age group, housing represents a majority
-of assets.\footnote{These tabulations, unpublished elsewhere were performed by
+of assets.\footnote{These tabulations were performed by
 Todd Sinai and Moises Yi.}  For most owners under 50, the value of the home is
 greater than net worth.  The ratio of home value to assets and net worth is
 declining with age and income. These patterns continued to hold in the 2016
 SCF, per \textcite{nahb2018homeownership}.
 
-Figure \ref{fig:mortgageStatusByAge} plots the rate of mortgage indebtedness (a
-0-1 indicator) for homeowners by age of household heading homeowners in the
-2000 US Census 5\% sample  and the 2020-2024 5-year ACS (both from
-\textcite{IPUMS}). In both samples, not surprisingly, the presence of mortgage
-debt is very high (over 80\%) among mid-20s homeowners, and declines with age
-well into retirement. Somewhat surprisingly in light of recent increases in
-prices, mortgage debt has grown less common among younger homewners and more
-common among older homeowners. The overall incidence among owners has fallen
-from 66\% in 2000 to 59\% in the 2020-2024 ACS. 
+\begin{table}
+	\caption{\label{tab:assets} Home value as a fraction of assets (top
+	panel) and net worth (bottom panel) for homeowners only, median
+	values across age and income groups.  Negative net worth households
+	excluded from the Net Worth panel.  Data from the 2007 Survey of
+	Consumer Finances, compiled by Todd Sinai and Moises Yi}
+	\center{\textbf{Median Home Value as Fraction of Assets}}
+	\begin{tabular}{l|llllll}
+		\hline
+		&                   \multicolumn{5}{c}{Household income}\\ 
+		Age of Head      &     $<$40k    & 40-75k   &75-125k  &125-250k    &250+ k
+		&Total\\
+		\hline\hline
+		 under 35& 1.890& 1.848& 1.456& 1.311& 0.576& 1.692\\
+		 35-49& 1.469& 1.355& 0.984& 0.761& 0.271& 1.063\\
+		 50-64& 0.944& 0.697& 0.572& 0.529& 0.260& 0.634\\
+		 65+& 0.752& 0.451& 0.439& 0.265& 0.203& 0.627\\
+		\hline
+	\end{tabular}
+	\\
+	\center{\textbf{Median Home Value as Fraction of Net Worth}}
+	\\
+	\begin{tabular}{l|llllll}
+		\hline
+		&                   \multicolumn{5}{c}{Household income}\\ 
+		Age of Head      &     $<$40k    & 40-75k   &75-125k  &125-250k    &250+ k
+		&Total\\
+		\hline\hline
+		 under 35 &2.188& 1.921& 1.562& 1.311& 0.576& 1.798\\
+		35-49 &1.488& 1.367& 0.990& 0.761& 0.271& 1.070\\
+		50-64 &0.944& 0.697& 0.572& 0.529& 0.260& 0.637\\
+		  65+ &0.754& 0.451& 0.439& 0.265& 0.203& 0.631\\
+		Total &0.918& 0.996& 0.829& 0.625& 0.258& 0.849\\
+		\hline
+	\end{tabular}
+\end{table}
+
+Figure \ref{fig:homeownershipAge_allMetros} plots homeownership rates among
+household heads by age for the 2000 Census 5\% sample and the 2020-2024 ACS as
+tabulated by \textcite{IPUMS}.  While overall homeownership has been relatively
+constant between the two samples, we see large declines between 2000 and
+2020-2024 at younger ages (even conditional on household headship) and even
+more persistent homeownership among seniors. 
+
+\begin{figure}
+	\caption{\label{fig:homeownershipAge_allMetros} Homeownership rates by age, 2000 Census and 2020-2024 ACS}
+	\pgfimage[height=8cm]{homeownershipAge_allMetros.png}
+\end{figure}
+
+
 
 Figure \ref{fig:own_age} shows that throughout life, married couples (with
 spouse present) are more likely to own than rent housing, and far likelier than
@@ -94,6 +135,17 @@ downward trend in homeownership in old age accelerates into the 90s, with ill
 health of individuals joining death of a spouse as a critical cause.  They find
 an ownership rate among individuals of approximately 50\% at age 90, but
 approximately 35\% at age 93.
+
+Figure \ref{fig:mortgageStatusByAge} plots the rate of mortgage indebtedness (a
+0-1 indicator) for homeowners by age of household heading homeowners in the
+2000 US Census 5\% sample  and the 2020-2024 5-year ACS (both from
+\textcite{IPUMS}). In both samples, not surprisingly, the presence of mortgage
+debt is very high (over 80\%) among mid-20s homeowners, and declines with age
+well into retirement. Somewhat surprisingly in light of recent increases in
+prices, mortgage debt has grown less common among younger homewners and more
+common among older homeowners. The overall incidence among owners has fallen
+from 66\% in 2000 to 59\% in the 2020-2024 ACS. 
+
 
 Making use of the patterns depicted in Figure \ref{fig:own_age},
 \textcite{FisherGervais} show that homeownership rates declined sharply among
@@ -113,34 +165,10 @@ and 2019, the share of individuals aged 20-29 living with parents was roughly
 constant overall for OECD countries, but rose dramatically in the U.S. and
 Canada.
 
-Figure \ref{fig:homeownershipAge_allMetros} plots homeownership rates among
-household heads by age for the 2000 Census 5\% sample and the 2020-2024 ACS as
-tabulated by \textcite{IPUMS}.  While overall homeownership has been relatively
-constant between the two samples, we see large declines between 2000 and
-2020-2024 at younger ages (even conditional on household headship) and even
-more persistent homeownership among seniors. Notably, the figures are not
-notably different in the difference-in-differences among age groups comparing
-across metropolitan areas. Figure \ref{fig:homeownershipMetros} plots the same
-figure as Figure \ref{fig:homeownershipAge_allMetros} but separately for
-notoriously inelastic and increasingly expensive San Francisco and Boston,
-versus Chicago and Houston, which have seen more muted price growth (verify).
-
-\begin{figure}
-	\caption{\label{fig:homeownershipAge_allMetros} Homeownership rates by age, 2000 Census and 2020-2024 ACS}
-	\pgfimage[height=8cm]{homeownershipAge_allMetros.png}
-\end{figure}
-
-\begin{figure}
-	\pgfimage[height=2.5in]{homeownershipAge_sanFrancisco.png}
-	\pgfimage[height=2.5in]{homeownershipAge_chicago.png}\\
-	\pgfimage[height=2.5in]{homeownershipAge_boston.png}
-	\pgfimage[height=2.5in]{homeownershipAge_houston.png}
-\end{figure}
-
 
 
 Among US households, the median and modal number of residential properties owned
-is one.  \textcite{AizcorbeKennickellMoore} find that 67\% of households owned
+is one. \textcite{AizcorbeKennickellMoore} find that 67\% of households owned
 housing in 2001, but only 12.8\% owned a second home or rental housing.  
 
 The unconditional mean income of owners in the 2020-2024 American Community
@@ -448,48 +476,17 @@ with us for the foreseeable future.
 \bibliography{tombib}
 \bibliographystyle{plainnat}
 
-
-\begin{table}
-	\caption{\label{tab:assets} Home value as a fraction of assets (top
-	panel) and net worth (bottom panel) for homeowners only, median
-	values across age and income groups.  Negative net worth households
-	excluded from the Net Worth panel.  Data from the 2007 Survey of
-	Consumer Finances, compiled by Todd Sinai and Moises Yi}
-	\center{\textbf{Median Home Value as Fraction of Assets}}
-	\begin{tabular}{l|llllll}
-		\hline
-		&                   \multicolumn{5}{c}{Household income}\\ 
-		Age of Head      &     $<$40k    & 40-75k   &75-125k  &125-250k    &250+ k
-		&Total\\
-		\hline\hline
-		 under 35& 1.890& 1.848& 1.456& 1.311& 0.576& 1.692\\
-		 35-49& 1.469& 1.355& 0.984& 0.761& 0.271& 1.063\\
-		 50-64& 0.944& 0.697& 0.572& 0.529& 0.260& 0.634\\
-		 65+& 0.752& 0.451& 0.439& 0.265& 0.203& 0.627\\
-		\hline
-	\end{tabular}
-	\\
-	\center{\textbf{Median Home Value as Fraction of Net Worth}}
-	\\
-	\begin{tabular}{l|llllll}
-		\hline
-		&                   \multicolumn{5}{c}{Household income}\\ 
-		Age of Head      &     $<$40k    & 40-75k   &75-125k  &125-250k    &250+ k
-		&Total\\
-		\hline\hline
-		 under 35 &2.188& 1.921& 1.562& 1.311& 0.576& 1.798\\
-		35-49 &1.488& 1.367& 0.990& 0.761& 0.271& 1.070\\
-		50-64 &0.944& 0.697& 0.572& 0.529& 0.260& 0.637\\
-		  65+ &0.754& 0.451& 0.439& 0.265& 0.203& 0.631\\
-		Total &0.918& 0.996& 0.829& 0.625& 0.258& 0.849\\
-		\hline
-	\end{tabular}
-\end{table}
-
 \begin{figure}
 	\caption{\label{fig:own_age} Homeownership rate by marital status and fraction
 	of homeowners owing mortgage debt, by age.  Data for household heads from 2000 Census via IPUMS.}
 	\pgfimage{ipums_age}
 \end{figure}
+\begin{figure}
+	\pgfimage[height=2.5in]{homeownershipAge_sanFrancisco.png}
+	\pgfimage[height=2.5in]{homeownershipAge_chicago.png}\\
+	\pgfimage[height=2.5in]{homeownershipAge_boston.png}
+	\pgfimage[height=2.5in]{homeownershipAge_houston.png}
+\end{figure}
+
 
 \end{document}

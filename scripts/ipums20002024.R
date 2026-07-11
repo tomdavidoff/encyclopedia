@@ -32,7 +32,6 @@ print(summary(dShare))
 print(cor(dShare))
 
 
-q("no")
 
 df <- fread("~/DropboxExternal/dataRaw/ipums20002024Tenure.csv")
 head(df)
@@ -74,10 +73,11 @@ panels <- list(
   sanFrancisco  = df[MET2013==41860],
   houston       = df[MET2013==26420],
   boston	= df[MET2013==14460],
+  cincinatti    = df[MET2013==17140],
   chicago       = df[MET2013==16980])
 
 titles <- c(allMetros="All Metros", sanFrancisco="San Francisco",
-            houston="Houston", boston = "Boston", chicago="Chicago")
+            houston="Houston", boston = "Boston", chicago="Chicago",cincinatti="Cincinnati")
 
 for (nm in names(panels)) {
   pdt <- mkpanel(panels[[nm]])

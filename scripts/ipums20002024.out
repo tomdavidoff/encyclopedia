@@ -434,7 +434,163 @@ rentShare 0.9630824 1.0000000 0.2615618
 N         0.2549992 0.2615618 1.0000000
 > 
 > 
-> q("no")
+> 
+> df <- fread("~/DropboxExternal/dataRaw/ipums20002024Tenure.csv")
+> head(df)
+    YEAR MULTYEAR SAMPLE SERIAL CBSERIAL  HHWT       CLUSTER MET2013 STRATA
+   <int>    <int>  <int>  <int>    <i64> <num>         <i64>   <int>  <int>
+1:  2000       NA 200001      1     <NA>    21 2000000000011   39300     72
+2:  2000       NA 200001      2     <NA>    18 2000000000021   39300     60
+3:  2000       NA 200001      4     <NA>    19 2000000000041   39300     65
+4:  2000       NA 200001      5     <NA>    24 2000000000051   39300     80
+5:  2000       NA 200001      7     <NA>    23 2000000000071   39300     68
+6:  2000       NA 200001      8     <NA>    26 2000000000081   39300     70
+      GQ OWNERSHP OWNERSHPD HHINCOME PERNUM PERWT RELATE RELATED   AGE MARST
+   <int>    <int>     <int>    <int>  <int> <num>  <int>   <int> <int> <int>
+1:     1        2        22     7500      1    19      1     101    30     6
+2:     1        1        13   204000      1    24      1     101    43     1
+3:     1        1        12    42700      1    16      1     101    62     1
+4:     1        2        22     7500      1    27      1     101    42     6
+5:     1        1        13    53000      1    29      1     101    51     4
+6:     1        1        13    25000      1    28      1     101    82     5
+> print(names(df))
+ [1] "YEAR"      "MULTYEAR"  "SAMPLE"    "SERIAL"    "CBSERIAL"  "HHWT"     
+ [7] "CLUSTER"   "MET2013"   "STRATA"    "GQ"        "OWNERSHP"  "OWNERSHPD"
+[13] "HHINCOME"  "PERNUM"    "PERWT"     "RELATE"    "RELATED"   "AGE"      
+[19] "MARST"    
+> print(table(df$OWNERSHP))
+
+      1       2 
+8127174 2822797 
+> print(table(df$RELATE))
+
+       1 
+10949971 
+> print(table(df$MARST))
+
+      1       2       3       4       5       6 
+5863791  179897  263705 1727539 1238308 1676731 
+> 
+> df[,own:=ifelse(OWNERSHP==1,1,0)]
+> 
+> print(df[,mean(HHINCOME),by=own])
+     own        V1
+   <num>     <num>
+1:     0  57843.27
+2:     1 101988.25
+> 
+> print(summary(feols(own ~ log(HHINCOME)  | SAMPLE + YEAR + AGE + MARST,data=df[YEAR==2000])))
+NOTE: 62,198 observations removed because of NA and infinite values (RHS: 62,198).
+OLS estimation, Dep. Var.: own
+Observations: 4,863,351
+Fixed-effects: SAMPLE: 1,  YEAR: 1,  AGE: 67,  MARST: 6
+Standard-errors: IID 
+              Estimate Std. Error t value  Pr(>|t|)    
+log(HHINCOME) 0.098782    0.00021 471.435 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.395376     Adj. R2: 0.209239
+                 Within R2: 0.043703
+Warning message:
+In log(HHINCOME) : NaNs produced
+> print(summary(feols(own ~ log(HHINCOME)  | SAMPLE +  AGE + MARST,data=df[YEAR!=2000])))
+NOTE: 65,286 observations removed because of NA and infinite values (RHS: 65,286).
+OLS estimation, Dep. Var.: own
+Observations: 5,959,136
+Fixed-effects: SAMPLE: 1,  AGE: 73,  MARST: 6
+Standard-errors: IID 
+              Estimate Std. Error t value  Pr(>|t|)    
+log(HHINCOME) 0.083555   0.000169 494.782 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.384194     Adj. R2: 0.196462
+                 Within R2: 0.039461
+Warning message:
+In log(HHINCOME) : NaNs produced
+> 
+> print(summary(feols(own ~ log(HHINCOME)  | MET2013 + SAMPLE + YEAR + AGE + MARST,data=df[YEAR==2000])))
+NOTE: 62,198 observations removed because of NA and infinite values (RHS: 62,198).
+OLS estimation, Dep. Var.: own
+Observations: 4,863,351
+Fixed-effects: MET2013: 259,  SAMPLE: 1,  YEAR: 1,  AGE: 67,  MARST: 6
+Standard-errors: IID 
+              Estimate Std. Error t value  Pr(>|t|)    
+log(HHINCOME) 0.113906   0.000211 540.771 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.38791     Adj. R2: 0.238783
+                Within R2: 0.056723
+Warning message:
+In log(HHINCOME) : NaNs produced
+> print(summary(feols(own ~ log(HHINCOME)  | MET2013 + SAMPLE +  AGE + MARST,data=df[YEAR!=2000])))
+NOTE: 65,286 observations removed because of NA and infinite values (RHS: 65,286).
+OLS estimation, Dep. Var.: own
+Observations: 5,959,136
+Fixed-effects: MET2013: 265,  SAMPLE: 1,  AGE: 73,  MARST: 6
+Standard-errors: IID 
+              Estimate Std. Error t value  Pr(>|t|)    
+log(HHINCOME) 0.096444    0.00017 567.315 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.377698     Adj. R2: 0.22337 
+                 Within R2: 0.051244
+Warning message:
+In log(HHINCOME) : NaNs produced
+> 
+> # line plot in age for 2000 and then not 2010. Note sample is just household heads -- relate==1
+> 
+> # do married now
+> pdt <- df[RELATE==1, .(own=weighted.mean(own, HHWT)),
++           by=.(AGE, period=ifelse(YEAR==2000, "2000", "2020-2024"))]
+> 
+> ggplot(pdt[AGE %between% c(18,90)], aes(x=AGE, y=own, color=period)) +
++   geom_line(linewidth=0.8) +
++   scale_color_manual(values=c("2000"="black", "2020-2024"="red")) +
++   labs(title="Homeownership by Age, 2000 vs 2020-2024",
++        y="Homeownership Rate", x="Age", color=NULL)
+> 
+> ggsave("text/homeownershipAge2010.png", width=7, height=5)
+> 
+> mkpanel <- function(d) d[RELATE==1,
++   .(own=weighted.mean(own, HHWT)),
++   by=.(AGE, period=ifelse(YEAR==2000, "2000", "2020-2024"))]
+> 
+> panels <- list(
++   allMetros     = df[MET2013>0],
++   sanFrancisco  = df[MET2013==41860],
++   houston       = df[MET2013==26420],
++   boston	= df[MET2013==14460],
++   cincinatti    = df[MET2013==17140],
++   chicago       = df[MET2013==16980])
+> 
+> titles <- c(allMetros="All Metros", sanFrancisco="San Francisco",
++             houston="Houston", boston = "Boston", chicago="Chicago",cincinatti="Cincinnati")
+> 
+> for (nm in names(panels)) {
++   pdt <- mkpanel(panels[[nm]])
++   p <- ggplot(pdt[AGE %between% c(25,90)], aes(x=AGE, y=own, color=period)) +
++     geom_line(linewidth=0.8) +
++     scale_color_manual(values=c("2000"="black", "2020-2024"="red")) +
++     labs(title=paste0("Homeownership by Age: ", titles[nm]),
++          y="Homeownership Rate", x="Age", color=NULL)
++   ggsave(paste0("text/homeownershipAge_", nm, ".png"), p, width=7, height=5)
++ }
+> 
+> # MARITAL STATUS
+> pdt <- df[RELATE==1 & YEAR!=2000 & MARST!=2,
++   .(own=weighted.mean(own, HHWT)),
++   by=.(AGE, marst=ifelse(MARST==1, "Married", "Not married"))]
+> 
+> ggplot(pdt[AGE %between% c(25,90)], aes(x=AGE, y=own, color=marst)) +
++   geom_line(linewidth=0.8) +
++   scale_color_manual(values=c("Married"="black", "Not married"="red")) +
++   labs(title="Homeownership by Age and Marital Status, 2020-2024",
++        y="Homeownership Rate", x="Age", color=NULL)
+> 
+> ggsave("text/homeownershipAgeMarst.png", width=8, height=5)
+> 
+>  #[1] "YEAR"      "MULTYEAR"  "SAMPLE"    "SERIAL"    "CBSERIAL"  "HHWT"     [7] "CLUSTER"   "MET2013"   "STRATA"    "GQ"        "OWNERSHP"  "OWNERSHPD" [13] "HHINCOME"  "PERNUM"    "PERWT"     "RELATE"    "RELATED"   "AGE"      [19] "MARST"    
+> 
 > proc.time()
    user  system elapsed 
-  4.246   0.488   2.712 
+ 20.893   4.517  20.138 

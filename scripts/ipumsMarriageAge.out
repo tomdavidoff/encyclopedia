@@ -1,0 +1,89 @@
+
+R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # ipumsMarriageAge.R
+> # Marriage by age IPUMS
+> # Tom Davidoff 
+> # 07/10/26
+> 
+> library(data.table)
+> library(ggplot2)
+> 
+> 
+> d0 <- fread("~/DropboxExternal/dataRaw/ipums/ageMarriage2000.csv",skip=12)
+Warning message:
+In fread("~/DropboxExternal/dataRaw/ipums/ageMarriage2000.csv",  :
+  Stopped early on line 79. Expected 3 fields but found 0. Consider fill=TRUE. First discarded non-empty line: <<Weighted N,25 25,3631191.0>>
+> d24 <- fread("~/DropboxExternal/dataRaw/ipums/ageMarriage2024.csv",skip=12)
+Warning message:
+In fread("~/DropboxExternal/dataRaw/ipums/ageMarriage2024.csv",  :
+  Stopped early on line 85. Expected 3 fields but found 0. Consider fill=TRUE. First discarded non-empty line: <<Weighted N,25 25,4420089.0>>
+> print(head(d0))
+       V1     V2    V3
+   <char> <char> <num>
+1:   Mean  27 27  0.45
+2:   Mean  28 28  0.49
+3:   Mean  29 29  0.52
+4:   Mean  30 30  0.54
+5:   Mean  31 31  0.58
+6:   Mean  32 32  0.59
+> print(head(d24))
+       V1     V2    V3
+   <char> <char> <num>
+1:   Mean  27 27  0.26
+2:   Mean  28 28  0.30
+3:   Mean  29 29  0.35
+4:   Mean  30 30  0.38
+5:   Mean  31 31  0.42
+6:   Mean  32 32  0.45
+> 
+> d0[,sample := 2000]
+> d24[,sample := 2024]
+> dT <- rbind(d0,d24)
+> dT[,age:=as.numeric(substring(V2,1,3))]
+Warning message:
+In eval(jsub, SDenv, parent.frame()) : NAs introduced by coercion
+> dT[,fractionMarried:=V3]
+> print(head(dT))
+       V1     V2    V3 sample   age fractionMarried
+   <char> <char> <num>  <num> <num>           <num>
+1:   Mean  27 27  0.45   2000    27            0.45
+2:   Mean  28 28  0.49   2000    28            0.49
+3:   Mean  29 29  0.52   2000    29            0.52
+4:   Mean  30 30  0.54   2000    30            0.54
+5:   Mean  31 31  0.58   2000    31            0.58
+6:   Mean  32 32  0.59   2000    32            0.59
+> 
+> ggplot(dT[,.(age,fractionMarried,sample)],aes(x=age,y=fractionMarried,color=as.factor(sample))) + geom_line() + 
++   scale_color_manual(values=c("blue","red")) + 
++   labs(title="Fraction Married by Age",x="Age",y="Fraction Married",color="Year") +
++   theme_minimal()
+Warning message:
+Removed 2 rows containing missing values or values outside the scale range
+(`geom_line()`). 
+> ggsave("text/ageMarriageIPUMS.png")
+Saving 7 x 7 in image
+Warning message:
+Removed 2 rows containing missing values or values outside the scale range
+(`geom_line()`). 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  0.787   0.073   0.853 
