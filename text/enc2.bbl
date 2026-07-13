@@ -19,6 +19,45 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{Achou}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20a2fda9e1403dd09b5d595e4cc73a7b}{%
+           family={Achou},
+           familyi={A\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{fullhash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{fullhashraw}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{bibnamehash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{authorbibnamehash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{authornamehash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{authorfullhash}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \strng{authorfullhashraw}{20a2fda9e1403dd09b5d595e4cc73a7b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Housing liquidity and long-term care insurance demand: A quantitative evaluation}
+      \field{volume}{194}
+      \field{year}{2021}
+      \field{pages}{104353}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jpubeco.2020.104353
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0047272720301555
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0047272720301555
+      \endverb
+    \endentry
     \entry{AizcorbeKennickellMoore}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=607b5f440d02370d451328fb09c2b430}{%
@@ -60,6 +99,62 @@
       \field{year}{2003}
       \field{pages}{1\bibrangedash 32}
       \range{pages}{32}
+    \endentry
+    \entry{AlAboud2025}{report}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a28f7601dc408fb27ecddfa189d9ae03}{%
+           family={Al\bibnamedelima Aboud},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Odae},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89f91c1b0157d0c3e6acd6f505bde9ff}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Saarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f57c6b168aa7c8ed97c0f999a08eda5}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9eda43a644030ac3eceaf837cb2489ac}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Bank of Canada}%
+      }
+      \strng{namehash}{f1c9c2d604d09cc8da3ac426835141cd}
+      \strng{fullhash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
+      \strng{fullhashraw}{da9b5bf7a2c27ac34b75f4c62a321f7d}
+      \strng{bibnamehash}{f1c9c2d604d09cc8da3ac426835141cd}
+      \strng{authorbibnamehash}{f1c9c2d604d09cc8da3ac426835141cd}
+      \strng{authornamehash}{f1c9c2d604d09cc8da3ac426835141cd}
+      \strng{authorfullhash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
+      \strng{authorfullhashraw}{da9b5bf7a2c27ac34b75f4c62a321f7d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{number}{2025-1}
+      \field{title}{Using new loan data to better understand mortgage holders}
+      \field{type}{Staff Analytical Note}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.bankofcanada.ca/2025/01/staff-analytical-note-2025-1/
+      \endverb
+      \verb{url}
+      \verb https://www.bankofcanada.ca/2025/01/staff-analytical-note-2025-1/
+      \endverb
     \endentry
     \entry{ArtleVaraiya}{article}{}{}
       \name{author}{2}{}{%
@@ -213,6 +308,41 @@
       \field{year}{1997}
       \field{pages}{159\bibrangedash 180}
       \range{pages}{22}
+    \endentry
+    \entry{Bula}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2285a546f13b775c54e0c95ec8565090}{%
+           family={Bula},
+           familyi={B\bibinitperiod},
+           given={Frances},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{fullhash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{fullhashraw}{2285a546f13b775c54e0c95ec8565090}
+      \strng{bibnamehash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{authorbibnamehash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{authornamehash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{authorfullhash}{2285a546f13b775c54e0c95ec8565090}
+      \strng{authorfullhashraw}{2285a546f13b775c54e0c95ec8565090}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Globe and Mail}
+      \field{month}{11}
+      \field{note}{Accessed: \text{July 12, 2026}}
+      \field{title}{{B.C.} shared-equity housing plan prompts both hope and skepticism}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.theglobeandmail.com/real-estate/vancouver/article-bc-shared-equity-housing-plan-prompts-both-hope-and-skepticism/
+      \endverb
+      \verb{url}
+      \verb https://www.theglobeandmail.com/real-estate/vancouver/article-bc-shared-equity-housing-plan-prompts-both-hope-and-skepticism/
+      \endverb
     \endentry
     \entry{CaplinChanFreemanTracy}{book}{}{}
       \name{author}{4}{}{%
@@ -370,6 +500,42 @@
       \field{pages}{226\bibrangedash 248}
       \range{pages}{23}
     \endentry
+    \entry{OECDLaunch}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a60e235214216265d55d03ebd1e1dd3a}{%
+           family={Cournède},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a273fce7aea9ac6580513b1ab1d000db}{%
+           family={Plouin},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{fullhash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{fullhashraw}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{bibnamehash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{authorbibnamehash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{authornamehash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{authorfullhash}{3fbd2b80edd927b417d1f567fc926ac9}
+      \strng{authorfullhashraw}{3fbd2b80edd927b417d1f567fc926ac9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{No Home for the Young?: Stylised Facts and Policy Challenges}
+      \field{type}{techreport}
+      \field{year}{2022}
+    \endentry
     \entry{Davidoffpuzzle}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
@@ -402,7 +568,7 @@
       \field{pages}{31\bibrangedash 52}
       \range{pages}{22}
     \endentry
-    \entry{davidoffCFR}{article}{}{}
+    \entry{Davidoffltc}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
            family={Davidoff},
@@ -426,15 +592,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Critical Finance Review}
-      \field{number}{2}
-      \field{title}{Supply Constraints Are Not Valid Instrumental Variables for Home Prices Because They Are Correlated With Many Demand Factors}
-      \field{volume}{5}
-      \field{year}{2016}
-      \field{pages}{177\bibrangedash 206}
-      \range{pages}{30}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{number}{1-2}
+      \field{title}{Home Equity Commitment and Long-Term Care Insurance Demand}
+      \field{volume}{94}
+      \field{year}{2010}
+      \field{pages}{44\bibrangedash 49}
+      \range{pages}{6}
     \endentry
-    \entry{Davidoffltc}{article}{}{}
+    \entry{davidoffCFR}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d5a1764dcb36f8683837327b4f420c6f}{%
            family={Davidoff},
@@ -458,9 +624,13 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Public Economics}
-      \field{title}{Home Equity Commitment and Long-Term Care Insurance Demand}
-      \field{year}{forthcoming}
+      \field{journaltitle}{Critical Finance Review}
+      \field{number}{2}
+      \field{title}{Supply Constraints Are Not Valid Instrumental Variables for Home Prices Because They Are Correlated With Many Demand Factors}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{pages}{177\bibrangedash 206}
+      \range{pages}{30}
     \endentry
     \entry{DavisFOM}{report}{}{}
       \name{author}{2}{}{%
@@ -608,8 +778,49 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mathematical Finance}
+      \field{number}{4}
       \field{title}{Optimal Timing for an Indivisible Asset Sale}
-      \field{year}{Forthcoming}
+      \field{volume}{18}
+      \field{year}{2008}
+      \field{pages}{545\bibrangedash 567}
+      \range{pages}{23}
+    \endentry
+    \entry{FisherGervais}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=77b0034068350a20f54fd2a1acb23f73}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Jonas\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0e5ed2b76cb4f4c6c0f8faf57b5faa0}{%
+           family={Gervais},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Federal Reserve Bank of Chicago}%
+      }
+      \strng{namehash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{fullhash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{fullhashraw}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{bibnamehash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{authorbibnamehash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{authornamehash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{authorfullhash}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \strng{authorfullhashraw}{ceea14d1ac6f38e7f8fe79579604f9d8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{WP-09-01}
+      \field{title}{Why has home ownership fallen among the young?}
+      \field{type}{Working Paper Series}
+      \field{year}{2009}
     \endentry
     \entry{FlavinYamashita}{article}{}{}
       \name{author}{2}{}{%
@@ -761,6 +972,55 @@
       \field{pages}{98\bibrangedash 113}
       \range{pages}{16}
     \endentry
+    \entry{Hirth}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=663ee0c86e5c303f4242e0ff011cf70b}{%
+           family={Hirth},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60d8bfeed862455deb963e905c70cee7}{%
+           family={Acharya},
+           familyi={A\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f5173684b496fd155059e7b33880cd9}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Helen\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6bb798b0349a8a9f0399148bc4618bb}{%
+           family={Langa},
+           familyi={L\bibinitperiod},
+           given={Kenneth\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4ec1da747e84da290fd196f0567855a}
+      \strng{fullhash}{fbc5b399ed9931a62405e125ddf436ea}
+      \strng{fullhashraw}{fbc5b399ed9931a62405e125ddf436ea}
+      \strng{bibnamehash}{a4ec1da747e84da290fd196f0567855a}
+      \strng{authorbibnamehash}{a4ec1da747e84da290fd196f0567855a}
+      \strng{authornamehash}{a4ec1da747e84da290fd196f0567855a}
+      \strng{authorfullhash}{fbc5b399ed9931a62405e125ddf436ea}
+      \strng{authorfullhashraw}{fbc5b399ed9931a62405e125ddf436ea}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research on Aging}
+      \field{number}{6}
+      \field{title}{Does Home Equity Affect Decisions on Long-Term Care Insurance Purchases? Evidence From the United States}
+      \field{volume}{41}
+      \field{year}{2019}
+      \field{pages}{602\bibrangedash 628}
+      \range{pages}{27}
+    \endentry
     \entry{Horioka}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=da2d18ce57d45e5c53d6c021407afdbc}{%
@@ -910,6 +1170,73 @@
       \verb https://www.freddiemac.com/research/insight/homeowner-vs-renter-spending
       \endverb
     \endentry
+    \entry{MayerMoulton}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=848356b1e788916d0a4152a0299f8632}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad7bdca20e3005f991b37ff6624fe002}{%
+           family={Moulton},
+           familyi={M\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=0ee1555f2d719e4fe036aeeb269697aa}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Olivia\bibnamedelima S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0ee1555f2d719e4fe036aeeb269697aa}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Olivia\bibnamedelima S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{1c505de0a53918871765e35ce660eacd}
+      \strng{fullhash}{1c505de0a53918871765e35ce660eacd}
+      \strng{fullhashraw}{1c505de0a53918871765e35ce660eacd}
+      \strng{bibnamehash}{1c505de0a53918871765e35ce660eacd}
+      \strng{authorbibnamehash}{1c505de0a53918871765e35ce660eacd}
+      \strng{authornamehash}{1c505de0a53918871765e35ce660eacd}
+      \strng{authorfullhash}{1c505de0a53918871765e35ce660eacd}
+      \strng{authorfullhashraw}{1c505de0a53918871765e35ce660eacd}
+      \strng{editorbibnamehash}{f645dcc9b771afbea80bd0d46e528c9b}
+      \strng{editornamehash}{f645dcc9b771afbea80bd0d46e528c9b}
+      \strng{editorfullhash}{f645dcc9b771afbea80bd0d46e528c9b}
+      \strng{editorfullhashraw}{f645dcc9b771afbea80bd0d46e528c9b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter examines the usage of reverse mortgages among mortgage borrowers, as well as applicants rejected for new mortgage credit who are age 62+. We find that 17–27 percent of actual and rejected borrowers would have qualified for a Home Equity Conversion Mortgage (HECM) reverse mortgage, or nine to 14 times the size of the actual HECM market. The existence of a large number of seniors with an existing mortgage or taking out a new mortgage with quite high loan to value ratios (LTVs) (57–65\%, depending on the product) suggests that many seniors do, in fact, utilize home equity in order to fund their retirement. Yet they choose products that require monthly payments lasting decades into retirement and rising as a share of (declining) income as they age. We consider a number of possible explanations for why seniors in the US do not spend home equity and instead rely on loans with high repayments, including precautionary savings for health shocks, bequest motives, high costs of reverse mortgages, and the lack of brand name institutions in the reverse mortgage business.}
+      \field{booktitle}{New Models for Managing Longevity Risk: Public-Private Partnerships}
+      \field{isbn}{9780192859808}
+      \field{month}{02}
+      \field{title}{The Market for Reverse Mortgages among Older Americans}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1093/oso/9780192859808.003.0013
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/book/0/chapter/352801809/chapter-pdf/53446986/oso-9780192859808-chapter-13.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oso/9780192859808.003.0013
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oso/9780192859808.003.0013
+      \endverb
+    \endentry
     \entry{MiceliSirmans}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a6318b6643d87d8b357f411686f06489}{%
@@ -982,6 +1309,36 @@
       \verb https://eyeonhousing.org/2018/03/homeownership-is-key-to-household-wealth/
       \endverb
     \endentry
+    \entry{NRMLA2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20944988cfe6394b43c652150839e27c}{%
+           family={{National Reverse Mortgage Lenders Association}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{20944988cfe6394b43c652150839e27c}
+      \strng{fullhash}{20944988cfe6394b43c652150839e27c}
+      \strng{fullhashraw}{20944988cfe6394b43c652150839e27c}
+      \strng{bibnamehash}{20944988cfe6394b43c652150839e27c}
+      \strng{authorbibnamehash}{20944988cfe6394b43c652150839e27c}
+      \strng{authornamehash}{20944988cfe6394b43c652150839e27c}
+      \strng{authorfullhash}{20944988cfe6394b43c652150839e27c}
+      \strng{authorfullhashraw}{20944988cfe6394b43c652150839e27c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: July 12, 2026}
+      \field{title}{Annual {HECM} Production Numbers}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.nrmlaonline.org/annual-hecm-endorsement-chart
+      \endverb
+      \verb{url}
+      \verb https://www.nrmlaonline.org/annual-hecm-endorsement-chart
+      \endverb
+    \endentry
     \entry{OrtaloMagneRady}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2738d5eb9019e1340a812a4e390ef763}{%
@@ -1050,6 +1407,33 @@
       \field{year}{1984}
       \field{pages}{729\bibrangedash 752}
       \range{pages}{24}
+    \endentry
+    \entry{Rothstein}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19192fe53caa301de3ea1ecacca56af9}{%
+           family={Rothstein},
+           familyi={R\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{fullhash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{fullhashraw}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{bibnamehash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{authorbibnamehash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{authornamehash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{authorfullhash}{19192fe53caa301de3ea1ecacca56af9}
+      \strng{authorfullhashraw}{19192fe53caa301de3ea1ecacca56af9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{manuscript, UC Berkeley}
+      \field{title}{What Do Parents Choose?}
+      \field{year}{2003}
     \endentry
     \entry{IPUMS}{misc}{}{}
       \name{author}{10}{}{%
@@ -1380,7 +1764,6 @@
       \range{pages}{27}
     \endentry
   \enddatalist
-  \missing{FisherGervais}
 \endrefsection
 \endinput
 

@@ -1,28 +1,27 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'text/enc2.blg'
-[34] biber-darwin:340> INFO - === Thu Jul  9, 2026, 15:05:32
-[43] Biber.pm:420> INFO - Reading 'text/enc2.bcf'
-[79] Biber.pm:994> INFO - Found 36 citekeys in bib section 0
-[86] Biber.pm:4463> INFO - Processing section 0
-[92] Biber.pm:4654> INFO - Looking for bibtex file 'lifecycle.bib' for section 0
-[98] bibtex.pm:1713> INFO - LaTeX decoding ...
-[241] bibtex.pm:1519> INFO - Found BibTeX data source 'text/lifecycle.bib'
-[365] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[365] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[365] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[365] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[386] bbl.pm:676> INFO - Writing 'text/enc2.bbl' with encoding 'UTF-8'
-[395] bbl.pm:779> INFO - Output to text/enc2.bbl
-[395] Biber.pm:131> WARN - legacy month field 'December' in entry 'freddiemac2024homeowner' is not an integer - this will probably not sort properly.
-[395] Biber.pm:131> WARN - legacy month field 'November' in entry 'Carliner' is not an integer - this will probably not sort properly.
-[395] Biber.pm:131> WARN - legacy month field 'August' in entry 'HanushekQuigley' is not an integer - this will probably not sort properly.
-[395] Biber.pm:131> WARN - Possible typo (case mismatch) between citation and datasource keys: 'FisherGervais' and 'FISHERGERVAIS' in file 'text/lifecycle.bib'
-[395] Biber.pm:131> WARN - legacy month field 'January' in entry 'AizcorbeKennickellMoore' is not an integer - this will probably not sort properly.
-[395] Biber.pm:131> WARN - legacy month field 'September' in entry 'GlaeserShapiro' is not an integer - this will probably not sort properly.
-[395] Biber.pm:131> WARN - legacy month field 'March' in entry 'HendersonIoannides' is not an integer - this will probably not sort properly.
-[396] Biber.pm:131> WARN - legacy year field 'forthcoming' in entry 'Davidoffltc' is not an integer - this will probably not sort properly.
-[396] Biber.pm:131> WARN - legacy year field 'Forthcoming' in entry 'EvansHendersonHobson' is not an integer - this will probably not sort properly.
-[396] Biber.pm:131> WARN - legacy month field 'March' in entry 'DengQuigleyVanOrder' is not an integer - this will probably not sort properly.
-[396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/h7/yfm5bjt93rs7537dbtrdx95h0000gn/T/biber_tmp_V0sc/4c6e94adbaed8018672cf33bf0a17c09_53154.utf8, line 4, warning: 46 characters of junk seen at toplevel
-[396] Biber.pm:131> WARN - I didn't find a database entry for 'FisherGervais' (section 0)
-[396] Biber.pm:133> INFO - WARNINGS: 12
+[46] biber-darwin:340> INFO - === Sun Jul 12, 2026, 20:26:25
+[57] Biber.pm:420> INFO - Reading 'text/enc2.bcf'
+[107] Biber.pm:994> INFO - Found 44 citekeys in bib section 0
+[117] Biber.pm:4463> INFO - Processing section 0
+[124] Biber.pm:4654> INFO - Looking for bibtex file 'lifecycle.bib' for section 0
+[133] bibtex.pm:1713> INFO - LaTeX decoding ...
+[334] bibtex.pm:1519> INFO - Found BibTeX data source 'text/lifecycle.bib'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[556] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[556] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[590] bbl.pm:676> INFO - Writing 'text/enc2.bbl' with encoding 'UTF-8'
+[605] bbl.pm:779> INFO - Output to text/enc2.bbl
+[605] Biber.pm:131> WARN - Duplicate entry key: 'Rothstein' in file 'text/lifecycle.bib', skipping ...
+[605] Biber.pm:131> WARN - legacy month field 'December' in entry 'freddiemac2024homeowner' is not an integer - this will probably not sort properly.
+[605] Biber.pm:131> WARN - legacy month field 'November' in entry 'Carliner' is not an integer - this will probably not sort properly.
+[605] Biber.pm:131> WARN - legacy month field 'August' in entry 'HanushekQuigley' is not an integer - this will probably not sort properly.
+[605] Biber.pm:131> WARN - legacy month field 'January' in entry 'AizcorbeKennickellMoore' is not an integer - this will probably not sort properly.
+[605] Biber.pm:131> WARN - legacy month field 'September' in entry 'GlaeserShapiro' is not an integer - this will probably not sort properly.
+[606] Biber.pm:131> WARN - legacy month field 'March' in entry 'HendersonIoannides' is not an integer - this will probably not sort properly.
+[606] Biber.pm:131> WARN - legacy month field 'January' in entry 'AlAboud2025' is not an integer - this will probably not sort properly.
+[606] Biber.pm:131> WARN - legacy month field 'nov' in entry 'Bula' is not an integer - this will probably not sort properly.
+[606] Biber.pm:131> WARN - legacy month field 'March' in entry 'DengQuigleyVanOrder' is not an integer - this will probably not sort properly.
+[606] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/zg/60phhs896b97yd60l0bd4z040000gn/T/biber_tmp_J0jt/4c6e94adbaed8018672cf33bf0a17c09_63162.utf8, line 4, warning: 46 characters of junk seen at toplevel
+[606] Biber.pm:133> INFO - WARNINGS: 11

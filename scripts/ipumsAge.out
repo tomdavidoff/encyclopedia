@@ -1,5 +1,5 @@
 
-R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"
+R version 4.5.0 (2025-04-11) -- "How About a Twenty-Six"
 Copyright (C) 2025 The R Foundation for Statistical Computing
 Platform: aarch64-apple-darwin20
 
@@ -28,8 +28,15 @@ Type 'q()' to quit R.
 > df <- fread("~/DropboxExternal/dataRaw/ipums/usa_00056.csv")
 > df[,period:=ifelse(YEAR==2000,"2000","2020-2024")]
 > 
+> print(df[,weighted.mean(OWNERSHP==1,PERWT),by=.(period)])
+      period        V1
+      <char>     <num>
+1:      2000 0.7093832
+2: 2020-2024 0.6943891
+> 
 > pdt <- rbind(df[,.(value=weighted.mean(MARST==1,PERWT),measure="Married"),by=.(AGE,period)],
 +              df[,.(value=weighted.mean(RELATE %in% c(1,2) & OWNERSHP==1,PERWT),measure="Own"),by=.(AGE,period)])
+> 
 > 
 > ggplot(pdt[AGE %between% c(25,90)],aes(x=AGE,y=value,color=measure,linetype=period)) +
 +   geom_line() +
@@ -41,4 +48,4 @@ Type 'q()' to quit R.
 > 
 > proc.time()
    user  system elapsed 
-  8.434   0.833   5.010 
+ 16.373   7.433  13.261 

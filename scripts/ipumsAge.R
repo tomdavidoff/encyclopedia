@@ -9,8 +9,11 @@ library(ggplot2)
 df <- fread("~/DropboxExternal/dataRaw/ipums/usa_00056.csv")
 df[,period:=ifelse(YEAR==2000,"2000","2020-2024")]
 
+print(df[,weighted.mean(OWNERSHP==1,PERWT),by=.(period)])
+
 pdt <- rbind(df[,.(value=weighted.mean(MARST==1,PERWT),measure="Married"),by=.(AGE,period)],
              df[,.(value=weighted.mean(RELATE %in% c(1,2) & OWNERSHP==1,PERWT),measure="Own"),by=.(AGE,period)])
+
 
 ggplot(pdt[AGE %between% c(25,90)],aes(x=AGE,y=value,color=measure,linetype=period)) +
   geom_line() +

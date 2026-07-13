@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 JUL 2026 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 JUL 2026 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,8 +49,8 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks18
 )
-(/Users/davidoff/Library/texmf/tex/latex/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
+(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -718,18 +718,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'enc2.bbl' found.
 
-(./enc2.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FisherGervais
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./enc2.bbl)
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
- (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count427
 \scratchdimen=\dimen256
@@ -757,52 +750,34 @@ e
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Reference `tab:assets' on page 2 undefined on input line 65.
-
-
-LaTeX Warning: Reference `fig:mortgageStatusByAge' on page 2 undefined on input
- line 73.
-
-
-LaTeX Warning: Reference `fig:own_age' on page 2 undefined on input line 83.
-
-
-LaTeX Warning: Reference `fig:own_age' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Citation 'FisherGervais' on page 2 undefined on input line 99.
-
-
-
 [2]
 
-LaTeX Warning: Reference `fig:homeownershipMetros' on page 3 undefined on input
- line 116.
+LaTeX Warning: Citation 'Kearney' on page 3 undefined on input line 154.
 
 
-Overfull \hbox (38.74602pt too wide) in paragraph at lines 124--128
-[][] [] 
- []
+LaTeX Warning: Citation 'StatsCan2024' on page 3 undefined on input line 155.
 
 
-Overfull \hbox (38.74602pt too wide) in paragraph at lines 124--128
-[] [] 
- []
+LaTeX Warning: Citation 'englehardtMayer' on page 3 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation 'Tal' on page 3 undefined on input line 167.
 
 
 
-[3 <./homeownershipAge_allMetros.png>]
+[3 <./ageMarriageOwnership.png>]
 
-[4 <./homeownershipAge_sanFrancisco.png> <./homeownershipAge_chicago.png> <./ho
-meownershipAge_boston.png> <./homeownershipAge_houston.png>]
+[4 <./mortgageStatusByAge.png>]
 
 [5]
 
-LaTeX Warning: Reference `fig:own_age' on page 6 undefined on input line 251.
-
-
-
 [6]
+
+LaTeX Warning: Reference `fig:homeownershipAge_allMetros' on page 7 undefined o
+n input line 308.
+
+
 
 [7]
 
@@ -810,7 +785,26 @@ LaTeX Warning: Reference `fig:own_age' on page 6 undefined on input line 251.
 
 [9]
 
-[10] (./enc2.aux)
+[10]
+Overfull \hbox (29.03609pt too wide) in paragraph at lines 497--497
+\OT1/cmr/m/n/12 cism''. In: \OT1/cmr/m/it/12 The Globe and Mail\OT1/cmr/m/n/12 
+. Ac-cessed: []. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https 
+: / / www . theglobeandmail .
+ []
+
+
+Overfull \hbox (0.22682pt too wide) in paragraph at lines 497--497
+[][]\OT1/cmr/m/n/12 Davis, Mor-ris A. and Fran^^Xcois Ortalo-Magn^^Se (2007). \
+OT1/cmr/m/it/12 House-hould Ex-pen-di-tures, Wages, Rents\OT1/cmr/m/n/12 .
+ []
+
+
+
+[11]
+
+[12]
+
+[13] (./enc2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -819,33 +813,41 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                enc2
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'enc2.run.xml'.
 \openout1 = `enc2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18851 strings out of 473190
- 370562 string characters out of 5715801
- 1177860 words of memory out of 5000000
- 41830 multiletter control sequences out of 15000+600000
- 567323 words of font info for 65 fonts, out of 8000000 for 9000
+ 19005 strings out of 473190
+ 375321 string characters out of 5715801
+ 1183849 words of memory out of 5000000
+ 41988 multiletter control sequences out of 15000+600000
+ 567793 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,11n,93p,828b,1007s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,93p,1200b,1277s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on enc2.pdf (10 pages, 808478 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on enc2.pdf (13 pages, 421403 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
