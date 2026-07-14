@@ -96,7 +96,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>99</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -104,7 +104,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>99</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -331,7 +331,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>99</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -339,7 +339,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>99</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2405,35 +2405,39 @@
     <bcf:citekey order="30" intorder="1">IPUMS</bcf:citekey>
     <bcf:citekey order="31" intorder="1">Rothstein</bcf:citekey>
     <bcf:citekey order="32" intorder="1">Shelton</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">HendersonIoannides</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">ArtleVaraiya</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">AlAboud2025</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">OrtaloMagneRady</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">Engelhardt96</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">VentiWise</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Davidoffltc</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">NRMLA2026</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">MayerMoulton</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Hurd90</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Horioka</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Weil</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Davidoffpuzzle</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Achou</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Hirth</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">AARP</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">CoileMilligan</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">FlavinYamashita</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Brueckner</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Bula</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Skinner</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">EvansHendersonHobson</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">BanksBlundellOldfieldSmith</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">SinaiSouleles</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">AizcorbeKennickellMoore</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">DengQuigleyVanOrder</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">MiceliSirmans</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Shiller</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">CaplinChanFreemanTracy</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">SinaiSouleles</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">HendersonIoannides</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">ArtleVaraiya</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">AlAboud2025</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">OrtaloMagneRady</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Engelhardt96</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">VentiWise</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Davidoffltc</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">NRMLA2026</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">MayerMoulton</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Hurd90</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">Horioka</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Weil</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Davidoffpuzzle</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">Achou</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Hanewald</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Hirth</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">AARP</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">engelhardtPerry</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">CoileMilligan</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">FlavinYamashita</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Brueckner</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Bula</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Skinner</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">EvansHendersonHobson</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">BanksBlundellOldfieldSmith</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">SinaiSouleles</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">AizcorbeKennickellMoore</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">DengQuigleyVanOrder</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">lowDefault</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">MiceliSirmans</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">Shiller</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">CaplinChanFreemanTracy</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

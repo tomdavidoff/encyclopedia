@@ -133,8 +133,8 @@
       \strng{namehash}{f1c9c2d604d09cc8da3ac426835141cd}
       \strng{fullhash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
       \strng{fullhashraw}{da9b5bf7a2c27ac34b75f4c62a321f7d}
-      \strng{bibnamehash}{f1c9c2d604d09cc8da3ac426835141cd}
-      \strng{authorbibnamehash}{f1c9c2d604d09cc8da3ac426835141cd}
+      \strng{bibnamehash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
+      \strng{authorbibnamehash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
       \strng{authornamehash}{f1c9c2d604d09cc8da3ac426835141cd}
       \strng{authorfullhash}{da9b5bf7a2c27ac34b75f4c62a321f7d}
       \strng{authorfullhashraw}{da9b5bf7a2c27ac34b75f4c62a321f7d}
@@ -226,8 +226,8 @@
       \strng{namehash}{7750749aa9147ed05e901faba12cc59e}
       \strng{fullhash}{e4a301dad2a07af639c47af713bcc34d}
       \strng{fullhashraw}{e4a301dad2a07af639c47af713bcc34d}
-      \strng{bibnamehash}{7750749aa9147ed05e901faba12cc59e}
-      \strng{authorbibnamehash}{7750749aa9147ed05e901faba12cc59e}
+      \strng{bibnamehash}{e4a301dad2a07af639c47af713bcc34d}
+      \strng{authorbibnamehash}{e4a301dad2a07af639c47af713bcc34d}
       \strng{authornamehash}{7750749aa9147ed05e901faba12cc59e}
       \strng{authorfullhash}{e4a301dad2a07af639c47af713bcc34d}
       \strng{authorfullhashraw}{e4a301dad2a07af639c47af713bcc34d}
@@ -380,8 +380,8 @@
       \strng{namehash}{1a406c1ab2c79aa59a98a9be182f8553}
       \strng{fullhash}{d93458dd2458aae6cf1244323e5252a2}
       \strng{fullhashraw}{d93458dd2458aae6cf1244323e5252a2}
-      \strng{bibnamehash}{1a406c1ab2c79aa59a98a9be182f8553}
-      \strng{authorbibnamehash}{1a406c1ab2c79aa59a98a9be182f8553}
+      \strng{bibnamehash}{d93458dd2458aae6cf1244323e5252a2}
+      \strng{authorbibnamehash}{d93458dd2458aae6cf1244323e5252a2}
       \strng{authornamehash}{1a406c1ab2c79aa59a98a9be182f8553}
       \strng{authorfullhash}{d93458dd2458aae6cf1244323e5252a2}
       \strng{authorfullhashraw}{d93458dd2458aae6cf1244323e5252a2}
@@ -712,6 +712,100 @@
       \field{pages}{275\bibrangedash 307}
       \range{pages}{33}
     \endentry
+    \entry{Kearney}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=25b930b2eef52c67ed868d4f4e4fabfb}{%
+           family={Dettling},
+           familyi={D\bibinitperiod},
+           given={Lisa\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bce5a9459b39b421788d318f09fb7bb9}{%
+           family={Kearney},
+           familyi={K\bibinitperiod},
+           given={Melissa\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{fullhash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{fullhashraw}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{bibnamehash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{authorbibnamehash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{authornamehash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{authorfullhash}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \strng{authorfullhashraw}{e56b8eb322c5361bab8e5c4a8175d3df}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0047-2727}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{House prices and birth rates: The impact of the real estate market on the decision to have a baby}
+      \field{volume}{110}
+      \field{year}{2014}
+      \field{pages}{82\bibrangedash 100}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jpubeco.2013.09.009
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0047272713001904
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0047272713001904
+      \endverb
+      \keyw{Fertility,HPI,Credit constraints,Home equity,Cyclicality of births,MSA,Housing market}
+    \endentry
+    \entry{englehardtMayer}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aeb15f0a08c4d7ae015112e8f134aa6d}{%
+           family={Engelhardt},
+           familyi={E\bibinitperiod},
+           given={Gary\bibnamedelima V.},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=edc58a4499d3846f5bd9c0ee75d0eedb}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{fullhash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{fullhashraw}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{bibnamehash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{authorbibnamehash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{authornamehash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{authorfullhash}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \strng{authorfullhashraw}{d42761ad0a33f0dfb2cb8fa6a1785ce6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0094-1190}
+      \field{journaltitle}{Journal of Urban Economics}
+      \field{number}{1}
+      \field{title}{Intergenerational Transfers, Borrowing Constraints, and Saving Behavior: Evidence from the Housing Market}
+      \field{volume}{44}
+      \field{year}{1998}
+      \field{pages}{135\bibrangedash 157}
+      \range{pages}{23}
+      \verb{doi}
+      \verb https://doi.org/10.1006/juec.1997.2064
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0094119097920647
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0094119097920647
+      \endverb
+    \endentry
     \entry{Engelhardt96}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=501bc5b9549363f8c164766803a5ea2f}{%
@@ -896,6 +990,54 @@
       \field{pages}{37\bibrangedash 82}
       \range{pages}{46}
     \endentry
+    \entry{Hanewald}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5e5c7db84a16ee7d15195fd3b2c78b4c}{%
+           family={Hanewald},
+           familyi={H\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2e89a8be6bd40d8b10cd648b4b1e97b}{%
+           family={Bateman},
+           familyi={B\bibinitperiod},
+           given={Hazel},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=305530c5dcdd93fb00e7dab66498f910}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Hanming},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2205d1254a83b095360c4c163f1c60b6}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Tin\bibnamedelima Long},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c5be831f849b5919b06495e0f6e28fe}
+      \strng{fullhash}{b91f34c5eed4f350baaf88e50a3c8879}
+      \strng{fullhashraw}{b91f34c5eed4f350baaf88e50a3c8879}
+      \strng{bibnamehash}{b91f34c5eed4f350baaf88e50a3c8879}
+      \strng{authorbibnamehash}{b91f34c5eed4f350baaf88e50a3c8879}
+      \strng{authornamehash}{6c5be831f849b5919b06495e0f6e28fe}
+      \strng{authorfullhash}{b91f34c5eed4f350baaf88e50a3c8879}
+      \strng{authorfullhashraw}{b91f34c5eed4f350baaf88e50a3c8879}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Insurance}
+      \field{title}{Housing wealth and long-term care insurance demand: Survey evidence}
+      \field{volume}{92}
+      \field{year}{2025}
+      \field{pages}{692\bibrangedash 718}
+      \range{pages}{27}
+    \endentry
     \entry{HanushekQuigley}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ab739a255c8b5c754c14f9fa8eefafdf}{%
@@ -1002,8 +1144,8 @@
       \strng{namehash}{a4ec1da747e84da290fd196f0567855a}
       \strng{fullhash}{fbc5b399ed9931a62405e125ddf436ea}
       \strng{fullhashraw}{fbc5b399ed9931a62405e125ddf436ea}
-      \strng{bibnamehash}{a4ec1da747e84da290fd196f0567855a}
-      \strng{authorbibnamehash}{a4ec1da747e84da290fd196f0567855a}
+      \strng{bibnamehash}{fbc5b399ed9931a62405e125ddf436ea}
+      \strng{authorbibnamehash}{fbc5b399ed9931a62405e125ddf436ea}
       \strng{authornamehash}{a4ec1da747e84da290fd196f0567855a}
       \strng{authorfullhash}{fbc5b399ed9931a62405e125ddf436ea}
       \strng{authorfullhashraw}{fbc5b399ed9931a62405e125ddf436ea}
@@ -1148,8 +1290,8 @@
       \strng{namehash}{98d40046a6e08bd29e97e0e8c1517358}
       \strng{fullhash}{23a3e17a81faf947906405628fbab706}
       \strng{fullhashraw}{23a3e17a81faf947906405628fbab706}
-      \strng{bibnamehash}{98d40046a6e08bd29e97e0e8c1517358}
-      \strng{authorbibnamehash}{98d40046a6e08bd29e97e0e8c1517358}
+      \strng{bibnamehash}{23a3e17a81faf947906405628fbab706}
+      \strng{authorbibnamehash}{23a3e17a81faf947906405628fbab706}
       \strng{authornamehash}{98d40046a6e08bd29e97e0e8c1517358}
       \strng{authorfullhash}{23a3e17a81faf947906405628fbab706}
       \strng{authorfullhashraw}{23a3e17a81faf947906405628fbab706}
@@ -1170,14 +1312,93 @@
       \verb https://www.freddiemac.com/research/insight/homeowner-vs-renter-spending
       \endverb
     \endentry
+    \entry{Rothstein}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7bd3fdde1a1cd70bd3356d7f5f89ea7}{%
+           family={Liebersohn},
+           familyi={L\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19192fe53caa301de3ea1ecacca56af9}{%
+           family={Rothstein},
+           familyi={R\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{fullhash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{fullhashraw}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{bibnamehash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{authorbibnamehash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{authornamehash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{authorfullhash}{f1b7a2e6707bec08eee501b94979d143}
+      \strng{authorfullhashraw}{f1b7a2e6707bec08eee501b94979d143}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-405X}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{title}{Household mobility and mortgage rate lock}
+      \field{volume}{164}
+      \field{year}{2025}
+      \field{pages}{103973}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jfineco.2024.103973
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X2400196X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X2400196X
+      \endverb
+      \keyw{Mortgages,Mobility,Interest rates,Housing lock}
+    \endentry
+    \entry{lowDefault}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06cb5d3be4a16bdcfd9b3073e2ecfc02}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{fullhash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{fullhashraw}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{bibnamehash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{authorbibnamehash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{authornamehash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{authorfullhash}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \strng{authorfullhashraw}{06cb5d3be4a16bdcfd9b3073e2ecfc02}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{What Triggers Mortgage Default? New Evidence from Linked Administrative and Survey Data}
+      \field{volume}{108}
+      \field{year}{2026}
+      \field{pages}{282\bibrangedash 290}
+      \range{pages}{9}
+    \endentry
     \entry{MayerMoulton}{incollection}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=848356b1e788916d0a4152a0299f8632}{%
+        {{un=1,uniquepart=given,hash=848356b1e788916d0a4152a0299f8632}{%
            family={Mayer},
            familyi={M\bibinitperiod},
            given={Christopher},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=ad7bdca20e3005f991b37ff6624fe002}{%
            family={Moulton},
            familyi={M\bibinitperiod},
@@ -1185,12 +1406,7 @@
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=0ee1555f2d719e4fe036aeeb269697aa}{%
-           family={Mitchell},
-           familyi={M\bibinitperiod},
-           given={Olivia\bibnamedelima S.},
-           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      \name{editor}{1}{}{%
         {{hash=0ee1555f2d719e4fe036aeeb269697aa}{%
            family={Mitchell},
            familyi={M\bibinitperiod},
@@ -1208,10 +1424,10 @@
       \strng{authornamehash}{1c505de0a53918871765e35ce660eacd}
       \strng{authorfullhash}{1c505de0a53918871765e35ce660eacd}
       \strng{authorfullhashraw}{1c505de0a53918871765e35ce660eacd}
-      \strng{editorbibnamehash}{f645dcc9b771afbea80bd0d46e528c9b}
-      \strng{editornamehash}{f645dcc9b771afbea80bd0d46e528c9b}
-      \strng{editorfullhash}{f645dcc9b771afbea80bd0d46e528c9b}
-      \strng{editorfullhashraw}{f645dcc9b771afbea80bd0d46e528c9b}
+      \strng{editorbibnamehash}{0ee1555f2d719e4fe036aeeb269697aa}
+      \strng{editornamehash}{0ee1555f2d719e4fe036aeeb269697aa}
+      \strng{editorfullhash}{0ee1555f2d719e4fe036aeeb269697aa}
+      \strng{editorfullhashraw}{0ee1555f2d719e4fe036aeeb269697aa}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1408,33 +1624,6 @@
       \field{pages}{729\bibrangedash 752}
       \range{pages}{24}
     \endentry
-    \entry{Rothstein}{unpublished}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=19192fe53caa301de3ea1ecacca56af9}{%
-           family={Rothstein},
-           familyi={R\bibinitperiod},
-           given={Jesse},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{fullhash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{fullhashraw}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{bibnamehash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{authorbibnamehash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{authornamehash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{authorfullhash}{19192fe53caa301de3ea1ecacca56af9}
-      \strng{authorfullhashraw}{19192fe53caa301de3ea1ecacca56af9}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{manuscript, UC Berkeley}
-      \field{title}{What Do Parents Choose?}
-      \field{year}{2003}
-    \endentry
     \entry{IPUMS}{misc}{}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=7387f51a82f67bf6afaf06e50696a5ba}{%
@@ -1501,8 +1690,8 @@
       \strng{namehash}{dc2ce9401fe56d5d462d6aaea4312709}
       \strng{fullhash}{64abcabfc40f306d5b629e76e01c2a50}
       \strng{fullhashraw}{64abcabfc40f306d5b629e76e01c2a50}
-      \strng{bibnamehash}{dc2ce9401fe56d5d462d6aaea4312709}
-      \strng{authorbibnamehash}{dc2ce9401fe56d5d462d6aaea4312709}
+      \strng{bibnamehash}{64abcabfc40f306d5b629e76e01c2a50}
+      \strng{authorbibnamehash}{64abcabfc40f306d5b629e76e01c2a50}
       \strng{authornamehash}{dc2ce9401fe56d5d462d6aaea4312709}
       \strng{authorfullhash}{64abcabfc40f306d5b629e76e01c2a50}
       \strng{authorfullhashraw}{64abcabfc40f306d5b629e76e01c2a50}
@@ -1699,6 +1888,79 @@
       \field{pages}{241\bibrangedash 271}
       \range{pages}{31}
     \endentry
+    \entry{StatsCan2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe4f0da2b9d24d3592e02834bf767733}{%
+           family={{Statistics Canada}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{fullhash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{fullhashraw}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{bibnamehash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{authorbibnamehash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{authornamehash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{authorfullhash}{fe4f0da2b9d24d3592e02834bf767733}
+      \strng{authorfullhashraw}{fe4f0da2b9d24d3592e02834bf767733}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Canada's population estimates: Age and gender}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www150.statcan.gc.ca/n1/en/daily-quotidien/240925/dq240925a-eng.pdf
+      \endverb
+      \verb{url}
+      \verb https://www150.statcan.gc.ca/n1/en/daily-quotidien/240925/dq240925a-eng.pdf
+      \endverb
+    \endentry
+    \entry{Tal}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fefb29c6973b3652205027f8d1abd22f}{%
+           family={Tal},
+           familyi={T\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94f44fc0d3b530dad853f35ed0c84b1c}{%
+           family={Judge},
+           familyi={J\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {CIBC Capital Markets, Economics}%
+      }
+      \strng{namehash}{ced6067327ecff11f508b22073240ed9}
+      \strng{fullhash}{ced6067327ecff11f508b22073240ed9}
+      \strng{fullhashraw}{ced6067327ecff11f508b22073240ed9}
+      \strng{bibnamehash}{ced6067327ecff11f508b22073240ed9}
+      \strng{authorbibnamehash}{ced6067327ecff11f508b22073240ed9}
+      \strng{authornamehash}{ced6067327ecff11f508b22073240ed9}
+      \strng{authorfullhash}{ced6067327ecff11f508b22073240ed9}
+      \strng{authorfullhashraw}{ced6067327ecff11f508b22073240ed9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{series}{In Focus}
+      \field{title}{Gifting for down payments --- an update}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://economics.cibccm.com/cds?ID=11e97bc7-dc7b-4024-b25d-479342219db4&TYPE=E
+      \endverb
+      \verb{url}
+      \verb https://economics.cibccm.com/cds?ID=11e97bc7-dc7b-4024-b25d-479342219db4&TYPE=E
+      \endverb
+    \endentry
     \entry{VentiWise}{unpublished}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cea527f7b492227e30c801763825b4c3}{%
@@ -1764,6 +2026,7 @@
       \range{pages}{27}
     \endentry
   \enddatalist
+  \missing{engelhardtPerry}
 \endrefsection
 \endinput
 

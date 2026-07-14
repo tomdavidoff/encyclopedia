@@ -3,7 +3,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \usepackage{amsmath}
-\usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage[style=authoryear,backend=biber,maxbibnames=99]{biblatex}
 \addbibresource{lifecycle.bib}
 \usepackage{pgf}
 
@@ -21,10 +21,9 @@ reviewing some basic statistics concerning housing wealth in the United States,
 I turn to the body of research concerning the way that homeownership affects
 households' ability to allocate resources to the dates and states of the world
 in which they are most needed. Despite decades of marketing efforts, financial
-products meant to undo certain portfolio effects of homeownership, such as
-equity sharing and home price index trading, have yet to become popular. A
-striking trend in North America is diminished household headship and ownership
-among younger people. 
+products meant to ameliorate these allocation problems have yet to
+become popular. A striking trend in North America is diminished household
+headship and ownership among younger people. 
 
 \end{abstract}
 
@@ -34,34 +33,33 @@ Data from surveys of US consumers highlight the importance of housing as
 both an asset and a liability. \textcite{freddiemac2024homeowner}, summarizing
 U.S. Consumer Expenditure Survey panel data, find that between 1984 and 2023,
 rent grew fairly steadily as a share of renters' total expenditures, from
-roughly 18\% to 26\%. By contrast, owners expenditures on shelter (including
+roughly 18\% to 26\%. By contrast, owners' expenditures on shelter (including
 mortgage interest but not principal repayment) were a relatively constant share
-of expenditures, hovering around 15\% over time over that period.\footnote{The
-	opportunity cost of equity and anticipated capital gains, part of true
-	``user cost'' (see, e.g.  \textcite{Poterba}), are not included in
-owners' expenditure shares.}
+of total expenditures, hovering around 15\% over time over that
+period.\footnote{The opportunity cost of equity and anticipated capital gains,
+	part of true ``user cost'' (see, e.g.  \textcite{Poterba}), are not
+	included in owners' expenditure shares.}
 
 The greater housing expenditure share for renters than owners found in the CEX is
 consistent with the empirical consensus that the wealth elasticity of housing
 demand is less than one (that is, the fraction of wealth spent on housing falls
 with wealth).\footnote{See, e.g. \textcite{Carliner}.}  In the 2000 IPUMS census
 data, I find an elasticity of rent paid with respect to social security income
-(intended as a proxy for lifetime income) of just .3 among retirees living
-alone who rent housing aged between 65 and 76.  In the 2020-2024 5-year ACS,
-that value rises to .47.\footnote{These results are conditional only on
-metropolitan area dummies and the year for the 5-year ACS.} Rent relative to
-social security income is greater in larger and more expensive metropolitan
-areas, consistent with the nearly experimental result of
-\textcite{HanushekQuigley} that the price elasticity of demand for housing is
-less than one (that is, spending on housing rises as the price of housing
-rises). Despite similar incomes, renters in central cities in the 2007 CEX spend
-22\% of income on shelter, as opposed to 13\% among renters in rural
-areas.\footnote{An intriguing result of \textcite{DavisFOM} is that despite
-	these low income and price elasticities, the distribution of
-expenditure shares among renters is very close to constant across time and US
-metropolitan areas.}
+(intended as a proxy for lifetime income) of just .3 among people aged 65-76 with social security income, living
+alone, and renting housing.  In the 2020-2024 5-year ACS, that value rises to
+.47.\footnote{These results are conditional only on metropolitan area dummies
+and the year for the 5-year ACS.} Rent relative to social security income is
+greater in larger and more expensive metropolitan areas, consistent with the
+nearly experimental result of \textcite{HanushekQuigley} that the price
+elasticity of demand for housing is less than one (that is, spending on housing
+rises as the price of housing rises). Despite similar incomes, renters in
+central cities in the 2007 CEX spend 22\% of income on shelter, as opposed to
+13\% among renters in rural areas.\footnote{An intriguing result of
+	\textcite{DavisFOM} is that despite these low income and price
+elasticities, the distribution of expenditure shares among renters is very
+close to constant across time and US metropolitan areas.}
 
-Tabulations of 2004 Survey of Consumer Finances data in Table \ref{tab:assets}
+Tabulations of 2007 Survey of Consumer Finances data in Table \ref{tab:assets}
 show that for most homeowners of every age group, housing represents a majority
 of assets.\footnote{These tabulations were performed by
 Todd Sinai and Moises Yi.} For most owners under 50, the value of the home is
@@ -115,9 +113,10 @@ ages (even conditional on household headship) and even more persistent
 homeownership among seniors. 
 
 \begin{figure}
-	\caption{\label{fig:ageMarriageOwnershipIPUMS} Homeownership and marriage rates by age for all US adults, 2000 Census and 2020-2024 5-year American Community Survey, via \textcite{IPUMS}.}
-	\pgfimage[height=8cm]{ageMarriageOwnership.png}
-\end{figure}
+	\caption{\label{fig:ageMarriageOwnershipIPUMS} Homeownership and
+marriage rates by age for all US adults, 2000 Census and 2020-2024 5-year
+American Community Survey, via \textcite{IPUMS}.}
+\pgfimage[height=8cm]{ageMarriageOwnership.png} \end{figure}
 
 
 Both homeownership and marriage rates rise steeply in the 20s and 30s, with
@@ -138,7 +137,7 @@ Figure \ref{fig:mortgageStatusByAge} plots the rate of mortgage indebtedness (a
 \textcite{IPUMS}). In both samples, not surprisingly, the presence of mortgage
 debt is very high (over 80\%) among mid-20s homeowners, and declines with age
 well into retirement. Somewhat surprisingly in light of recent increases in
-home prices, mortgage debt has grown less common among younger homewners and more
+home prices, mortgage debt has grown less common among younger homeowners and more
 common among older homeowners. The overall incidence among owners has fallen
 from 66\% in 2000 to 59\% in the 2020-2024 ACS. 
 
@@ -151,38 +150,44 @@ Making use of the patterns depicted in Figure \ref{fig:ageMarriageOwnershipIPUMS
 \textcite{FisherGervais} show that homeownership rates declined sharply among
 younger households between 1980 and 2007, attributing this in large part to
 increasing age of first marriage over time. Working in the other direction,
-\textcite{Kearney} finds that rising home prices are a cause of reduced
-fertility (a major trend globally). \textcite{StatsCan2024} shows that in
+\textcite{Kearney} find that rising home prices are a cause of reduced
+fertility (a major trend globally) for renters. \textcite{StatsCan2024} shows that in
 Canada, where home prices rose dramatically over past decades, while
 Millennials represent a large population bulge at prime parenting ages in 2024
 relative to their predecssors in 2004, the number of children has changed
-relatively little over the same period. Whether the receding of the Millenial
+relatively little over the same period. Whether the receding of the Millennial
 bulge will lead to lower home prices and hence increased marriage and fertility
 rates remains to be seen.
 
 Gifts from parents to children have long been important sources of the
-downpayments lender typically require of homeowners (see, e.g.
+downpayments lenders typically require of homeowners (see, e.g.
 \textcite{englehardtMayer}). As home prices have risen in Canada, the fraction
 of first-time buyers purchasing with gifts from parents has risen from 20\% in
 2015 to 31\% in 2024, per \textcite{Tal}. Over the same period the average gift
-rose from under \$60,000 to over \$100,000. Home equity loans are a natural source of these gifts, suggesting a channel for the rising US indebtedness among seniors shown in Figure \ref{fig:mortgageStatusByAge}.
+rose from under \$60,000 to over \$100,000. Home equity loans are a natural
+source of these gifts, suggesting a channel for the rising US indebtedness
+among seniors shown in Figure \ref{fig:mortgageStatusByAge}.
 
-Increasing overall homeownership can be attributed largely to an aging
-population and increasing homeownership among the elderly. These patterns have
-persisted. Per 2000 Census data from \textcite{IPUMS}, among respondents aged
-75 and over, in 2000, 69.8\% were household heads or spouses of heads and owned
-their own residence. In the 2024 ACS, it was 72.9\%. Among Americans 24-35, in
-2000, 46\% were household heads or spouses of and owned their home. In 2024,
-that figure had dropped to 34.9\%. This reflects both a reduction in household
-headship rates and the conditional probability of ownership. While rising
-housing costs are a global phenomenon, \textcite{OECDLaunch} shows that between
-2007 and 2019, the share of individuals aged 20-29 living with parents was
-roughly constant overall for OECD countries, but rose dramatically along with
-home prices in the U.S. and Canada.
+Relatively constant overall homeownership despite plummeting ownership among
+younger cohorts can be attributed largely to an aging population and increasing
+homeownership among the elderly. These patterns have persisted. Per 2000 Census
+data from \textcite{IPUMS}, among respondents aged 75 and over, in 2000, 69.8\%
+were household heads or spouses of heads and owned their own residence. In the
+2024 ACS, it was 72.9\%. Among Americans 24-35, in 2000, 46\% were household
+heads or spouses of and owned their home. In 2024, that figure had dropped to
+34.9\%. This reflects both a reduction in household headship rates and the
+conditional probability of ownership. While rising housing costs are a global
+phenomenon, \textcite{OECDLaunch} show that between 2007 and 2019, the share
+of individuals aged 20-29 living with parents was roughly constant overall for
+OECD countries, but rose dramatically along with home prices in the U.S. and
+Canada.
 
-Among US households, the median and modal number of residential properties owned
-is one. \textcite{AizcorbeKennickellMoore} find that 67\% of households owned
-housing in 2001, but only 12.8\% owned a second home or rental housing.  
+Among US households, the median and modal number of residential properties
+owned is one. \textcite{AizcorbeKennickellMoore} find that 67\% of households
+owned housing in 2001, but only 12.8\% owned a second home or rental housing.
+Of course, many households hold rental real estate indirectly, through Real
+Estate Investment Trust shares (in isolation or in funds) and implicit pension
+fund holdings.
 
 The unconditional mean income of owners in the 2020-2024 American Community
 Survey was \$101,988, almost double the mean income of renters (\$57,843). In
@@ -214,7 +219,7 @@ sample selected on household heads ages 25 and older.}
 \section{Housing wealth in the life cycle: theoretical problems}
 
 The institution of homeownership presents a puzzle.  Why do most households own
-exactly 100\% of a single home, rather than some smaller share of a diversified
+exactly 100\% of a single home, rather than a very small share of a diversified
 bundle of homes? A variety of costs come with full ownership of a particular
 home, some of which are described below.  
 
@@ -250,19 +255,21 @@ downward. When rates rise, numerous studies (e.g. \textcite{Rothstein}) show
 that owners' mobility is reduced through a lock-in effect.
 
 Whether the existence of demand for changing units makes owning or renting
-housing relatively advantageous is an open question.  The answer will depend in
+housing relatively advantageous is an open question. The answer will depend in
 large part on the relative magnitudes of: (a) moral hazard costs of rapid
 turnover and under-maintenance that arise because tenants do not pay on the
-margin for landlords' leasing and marketing costs upon lease termination, versus
-(b) the expected extra financial costs of moving imposed by owner units.  The
-cost (a) is a common rationalization of the institution of homeownership through
-the mechanism of depreciation and maintenance.\footnote{See, e.g.
-\textcite{Shelton}.}  The magnitude of cost (b) will depend in part on households
-ability to substitute consumption between housing and other goods and between
-current housing and future expenditures.  To the extent that homeowners purchase
-homes that are particularly well-suited to their idiosyncratic needs or
-attachment to the home grows over time in a beneficial way (for example, through
-customization) cost (b) will be smaller.
+margin for landlords' leasing and marketing costs upon lease termination,
+versus (b) the expected extra financial costs of moving imposed by owner units.
+The cost (a) is a common rationalization of the institution of homeownership
+through the mechanism of depreciation and maintenance.\footnote{See, e.g.
+\textcite{Shelton}.}  The magnitude of cost (b) will depend in part on
+households ability to substitute consumption between housing and other goods
+and between current housing and future expenditures. To the extent that
+homeowners purchase homes that are particularly well-suited to their
+idiosyncratic needs or attachment to the home grows over time in a beneficial
+way (for example, through customization) cost (b) will be smaller. The
+correlation structure of home prices across markets may also affect the
+benefits of owning through hedging, per \textcite{SinaiSouleles}.
 
 \subsection{Excessive investment in particular homes}
 
@@ -305,20 +312,23 @@ liquidity constraints associated with down payments.
 
 The elderly retain a strikingly high quantity of home equity, a fact that has
 been documented by numerous authors such as \textcite{VentiWise}. As shown in
-figure \ref{fig:homeownershipAge_allMetros}, home ownership rates remain high
-very late into life, and mortgage debt is decreasing, not increasing in age.
-As reported in \textcite{Davidoffltc}, in the 2004 wave of the HRS/AHEAD panel,
-approximately 12\% of retired homeowners over 62 owe any mortgage debt, and
-among these, the median debt to value is just 33\%.  Between 1998 and 2004,
-despite very large increases in home values, only approximately 10\% of retired
-homeowners increased mortgage debt.  Almost all high wealth households have
-substantial home equity.  In the top total wealth quintile of the retired and
-over 62 sample, 84\% held home equity greater than \$100,000.  To the extent
-that retirees wish to spend down their housing wealth before death, it thus
-appears that a combination of the institution of homeownership and supply
-problems in the markets for residential sale-leasebacks and mortgages for the
-elderly stand in the way. Following a peak after the Great Financial Crisis,
-reverse mortgage originations have droppped below termination rates.\footnote{See \textcite{NRMLA2026}, home equity release products in the UK appear to have grown more than elsewhere per \textcite{MayerMoulton}.}
+figures \ref{fig:ageMarriageOwnershipIPUMS} and \ref{fig:mortgageStatusByAge} ,
+home ownership rates remain high very late into life, and mortgage debt is
+decreasing, not increasing in age.  As reported in \textcite{Davidoffltc}, in
+the 2004 wave of the HRS/AHEAD panel, approximately 12\% of retired homeowners
+over 62 owe any mortgage debt, and among these, the median debt to value is
+just 33\%.  Between 1998 and 2004, despite very large increases in home values,
+only approximately 10\% of retired homeowners increased mortgage debt.  Almost
+all high wealth households have substantial home equity.  In the top total
+wealth quintile of the retired and over 62 sample, 84\% held home equity
+greater than \$100,000.  To the extent that retirees wish to spend down their
+housing wealth before death, it thus appears that a combination of the
+institution of homeownership and supply problems in the markets for residential
+sale-leasebacks and mortgages for the elderly stand in the way. Following a
+peak after the Great Financial Crisis, reverse mortgage originations have
+droppped below termination rates.\footnote{See \textcite{NRMLA2026}; home
+equity release products in the UK appear to have grown more than elsewhere per
+\textcite{MayerMoulton}.}
 
 That there is a desire to spend down financial resources before death is not at
 all obvious, as demonstrated by ambiguous findings on the overall savings rate
@@ -329,14 +339,14 @@ savings might arise for a variety of reasons, such as a stochastic need for
 long-term care and uncertain longevity, combined with imperfect insurance
 markets.  Indeed, \textcite{Davidoffpuzzle} shows that the welfare benefits of
 each one of home equity extraction products, annuities, and long-term care
-insurance depend on the presence or absence of the others.\footnote{For a range of views on home equity crowd-out of long-term care insurance on empirical, survey, and theoretical grounds, see \textcite{Achou}, textcite{Hanewald}, and \textcite{Hirth}.}
+insurance depend on the presence or absence of the others.\footnote{For a range of views on home equity crowd-out of long-term care insurance on empirical, survey, and theoretical grounds, see \textcite{Achou}, \textcite{Hanewald}, and \textcite{Hirth}.}
 
 A critical input to the retiree's financial planning problem is the question of
 how costly in financial and utility terms it would be to move out of one's home.
 If it is easy to move out of the home, then a reverse mortgage is presumably
 less desirable, and the need to maintain a buffer stock of other assets is
 lessened.  Survey evidence in \textcite{AARP} suggests that moves are quite costly.
-Engelhardt shows that random increases in social security income and support
+\textcite{engelhardtPerry} shows that random increases in social security income and support
 for home health care provision increase homeownership. \textcite{CoileMilligan}
 show that ill health is a crucial determinant of exit from homeownership.  A
 reasonable framework for analyzing homeownership in old age would thus pose
@@ -376,10 +386,10 @@ increasing for a homeowner.
 
 Not just hedging demand, but also real options associated with timing of moves,
 investment, default, and mortgage refinancing may make price volatility more
-tolerable to owners at any stage of the life cycle.  In the recent boom, it
-seems highly likely that demand and prices were increased by owners and
-investors in housing who viewed high loan-to-value loans as essentially call
-options on volatile local prices.
+tolerable to owners at any stage of the life cycle.  In the price boom of the
+early 2000s, it seems highly likely that demand and prices were increased by
+owners and investors in housing who viewed high loan-to-value loans as
+essentially call options on volatile local prices.
 
 The fact that many homeowners die without cashing out their home equity may be
 seen as evidence that capital gains risk is of limited importance.  However, if
@@ -419,7 +429,7 @@ knowledge, there is no study of the cross sectional relationship between (a) the
 correlation of assets with real estate returns and (b) their relative prices.
 Such a study would face the challenge that real estate has historically had a
 weak correlation with financial asset prices, but crashed with the stock market
-in the great depression and in the recent downturn.  
+in the Great Depression and the Great Financial Crisis.
 
 Active investors may or may not demand compensation for exposure to real estate
 price risk, but these investors are unusual.  Findings from the Survey of
@@ -438,24 +448,26 @@ markets, and even from home to home within neighborhoods.
 A variety of products have been put forward that may help young and old
 homeowners reduce home equity and to help all owners reduce exposure to
 systematic and idiosyncratic price risk.  An important open question is whether
-these products have proved unpopular because contracting issues pushes prices
+these products have proved unpopular because contracting issues push prices
 away from actuarially fair, or instead because high savings and large housing
 shares in the portfolio are optimal even with fair pricing.
 
 The obvious way to reduce savings while owning a home is to take on a mortgage.
 The cost of increasing loan-to-value ratios has varied considerably over time.
-Recent experience demonstrates that there may be no interest rate at which 100\%
-loan-to-value is profitable to lenders.  From lenders' perspective, both
-refinancing and default are crucial to pricing and profitability, but the
-optimal exercise of these options for borrowers are difficult to solve even for
-economists.  The recent implosion of the mortgage industry and microeconomic
-evidence makes clear that we do not have a satisfactory model of default and
-prepayment, even conditional on complete histories of prices and interest
+The experience of the GFC suggests that there may be no interest rate at which 100\%
+loan-to-value is profitable to lenders, but at 95\%, defaults have been very
+low in many contexts.  From lenders' perspective, both refinancing and default
+are crucial to pricing and profitability, but the optimal exercise of these
+options for borrowers are difficult to solve even for economists.  The
+implosion of the mortgage industry in the GFC and microeconomic evidence make
+clear that we do not have a satisfactory model of default and prepayment, even
+conditional on complete histories of prices and interest
 rates.\footnote{\textcite{DengQuigleyVanOrder} emphasize the heterogeneity of
-borrower behavior across households and environments.}  Credit availability to
-younger homeowners hoping to minimize savings while retaining the hedging,
-contracting, or psychological benefits of homeownership is thus likely to remain
-cyclical.
+borrower behavior across households and environments. \textcite{lowDefault}
+shows that purely strategic defaults are highly unusual in the U.S.}  Credit
+availability to younger homeowners hoping to minimize savings while retaining
+the hedging, contracting, or psychological benefits of homeownership is thus
+likely to remain cyclical.
 
 From the discussion above, it is not clear that the elderly wish to reduce
 savings in the form of home equity or otherwise.  The obvious products that
@@ -468,22 +480,24 @@ Reverse mortgages are likely to feature both adverse selection (witness Mme
 Jean Calment who lived a record 122 years and had the French version of a
 reverse mortgage) and moral hazard both on the timing of sales (once a property
 is worth less than the loan amount, the mortgagor has no incentive to move
-because the loans are non-recourse) and on maintenance,\footnote{see, e.g.
-\textcite{MiceliSirmans}} it is not obvious that sufficiently high loan-to-value
-ratios to trigger mass demand can be attained at profitable and marketable rates.
+because the loans are non-recourse) and on maintenance.\footnote{see, e.g.
+\textcite{MiceliSirmans}} It is thus not obvious that sufficiently high
+loan-to-value ratios to trigger mass demand can be attained at profitable and
+marketable rates.
 
 \textcite{Shiller} and \textcite{CaplinChanFreemanTracy} have proposed mechanisms
 whereby homeowners can reduce exposure to variation in home prices.  The Chicago
-Mercantile Exchange now allows investors to take long or short positions on
+Mercantile Exchange has allowed investors to take long or short positions on
 changes in regional average home price indexes, calculated based on a repeated
-sale methodology.  Several companies have devised mechanisms whereby outside
-investors can be given equity, rather than debt, in the home.  For the latter
-type of contract, default risk should be lower than with debt contracts, but
-investment and market timing of sale may lead to problems of moral hazard.
-Trades on the Case-Shiller CME index avoid homeowner agency problems but do not
-provide insurance against individual home price risk.  Given the complicated
-effects of home price changes on utility described above, it is not entirely
-surprising that there has been very limited demand for either type of product.
+sale methodology, for over 20 years.  Several companies have devised mechanisms
+whereby outside investors can be given equity, rather than debt, in the home.
+For the latter type of contract, default risk should be lower than with debt
+contracts, but investment and market timing of sale may lead to problems of
+moral hazard.  Trades on the Case-Shiller CME index avoid homeowner agency
+problems but do not provide insurance against individual home price risk.
+Given the complicated effects of home price changes on utility described above,
+it is not entirely surprising that there has been very limited demand for
+either type of product.
 
 Summarizing, it is difficult to provide households with easily understood
 normative advice on major life cycle housing decisions, and particularly
